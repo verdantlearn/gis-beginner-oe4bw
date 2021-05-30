@@ -2,9 +2,9 @@
 layout: index
 ---
 
-Welcome to this short refresher course on combining GPS locations and field observations from wildlife conservation surveys!
+Welcome to this short GIS beginner course for wildlife conservationists!
 
-This course will run **17-21 May 2021**  
+This course will run **DATES**  
 
 :point_up: You can navigate through the course using the menu bar at the top of this page, starting with 'Pre-course'
 
