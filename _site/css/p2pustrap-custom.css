@@ -8269,7 +8269,7 @@ body {
   padding-right: 1em !important; }
 
 .jumbotron {
-  background: url("../img/jumbotron-mask.svg") repeat, url("../img/jumbotron-image.jpg") center/cover #008000;
+  background: url("../src/img/jumbotron-mask.svg") repeat, url("../src/img/jumbotron-image.jpg") center/cover #008000;
   color: #fff;
   text-shadow: 5px 5px 10px #515665; }
   .jumbotron a {

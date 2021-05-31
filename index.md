@@ -12,7 +12,7 @@ This course will run **DATES**
 
 This course is authored and taught by ***Dr Lucy Tallents***, director of **VerdantLearn**.  For more information about Lucy, see her [LinkedIn profile](https://uk.linkedin.com/in/lucytallents) or [blog](https://www.lucytallents.com/tags)
 
-<center><img src="{{site.baseurl}}/img/LucyRainbowBridge_Square.jpeg" alt="Lucy portrait"></center>
+<center><img src="{{site.baseurl}}/src/img/LucyRainbowBridge_Square.jpeg" alt="Lucy portrait"></center>
 
 <br> 
 
