@@ -1,5 +1,6 @@
 ---
 title: Land cover data
+published: false
 ---
 
 # Land cover dataset

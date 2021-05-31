@@ -1,5 +1,6 @@
 ---
 title: Self-introductions
+published: false
 ---
 
 ## Introduce yourself!
