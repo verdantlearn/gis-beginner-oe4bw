@@ -2,11 +2,13 @@
 layout: index
 ---
 
-Welcome to this short GIS beginner course for wildlife conservationists!
+> Welcome to this short beginner course on GIS for wildlife conservationists!
 
-This course will run **DATES**  
+The course will run from Monday 14 June to Sunday 11 July 2021
 
-:point_up: You can navigate through the course using the menu bar at the top of this page, starting with 'Pre-course'
+Each week contains a range of activities that should take you 4-5 hours to complete, including discussion, hands-on GIS exercises, reading and reflection, and mini assignments.  The week's pages will become available one week ahead
+
+:point_up: You can navigate through the course using the menu bar at the top of this page
 
 <br> 
 
@@ -18,6 +20,6 @@ This course is authored and taught by ***Dr Lucy Tallents***, director of **Verd
 
 ## Other learning opportunities
 
-* Join our [mailing list](https://verdantlearn-gis-refreshers-may2021.webflow.io/maillist) to receive alerts about our upcoming learning opportunities :heart:
+* Join our [mailing list](https://verdantlearn-courses.webflow.io/maillist) to receive alerts about our upcoming learning opportunities :heart:
 
 

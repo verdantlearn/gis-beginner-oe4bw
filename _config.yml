@@ -36,6 +36,7 @@ jumbotron_icon: "src/img/jumbotron-logo.png"
 
 plugins:
   - jemoji
+  # - jekyll-openmoji
 
 
 kramdown:
