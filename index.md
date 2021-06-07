@@ -6,9 +6,9 @@ layout: index
 
 The course will run from Monday 14 June to Sunday 11 July 2021
 
-Each week contains a range of activities that should take you 4-5 hours to complete, including discussion, hands-on GIS exercises, reading and reflection, and mini assignments.  The week's pages will become available one week ahead
+Each week contains a range of activities that should take you 4-5 hours to complete, including discussion, hands-on GIS exercises, reading and reflection, and mini assignments.  Each module's pages will be published on the Friday before the module begins
 
-:point_up: You can navigate through the course using the menu bar at the top of this page
+:point_up: You can navigate through the course using the menu at the top of this page
 
 <br> 
 
