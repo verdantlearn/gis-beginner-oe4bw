@@ -1,11 +1,10 @@
 ---
 title: Community forum
-published: false
 ---
 
 ## Community forum
 
-We invite you to join [VerdantLearn's community discussion forum](https://community.verdantlearn.org), which is where our collaborative learning happens
+We invite you to join [VerdantLearn's community forum](https://community.verdantlearn.org), which is where our collaborative learning happens
 
 The community forum is public, so you will be able to read other people's posts without signing in.  However, you will need to **create an account** if you want to:
 - Discuss what you're learning on this course
@@ -15,10 +14,10 @@ The community forum is public, so you will be able to read other people's posts 
 - Be eligible for a certificate of course completion
 
 ### Join the community
-Follow these steps to prepare for the learning activities:
+Follow these steps so you're ready to participate when the course begins:
 
 1. Create an account at [https://community.verdantlearn.org](https://community.verdantlearn.org)
-2. You'll be invited by *discobot* :robot: to complete a brief tutorial on using Discourse, the open source software that our community forum is based upon
-3. Edit your profile:
-   1. Add a picture of yourself
-   2. Add some information about yourself to help others get to know you
+2. You'll be invited by *discobot* :robot: to complete a brief **tutorial on using Discourse**, the open source software our community is based upon
+3. Edit your **profile**:
+   1. Add a **picture** of yourself
+   2. Add a **description** to help others get to know you

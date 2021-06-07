@@ -1,6 +1,5 @@
 ---
 title: Install QGIS
-published: false
 ---
 
 ## Installing QGIS

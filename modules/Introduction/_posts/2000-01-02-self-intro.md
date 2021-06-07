@@ -6,7 +6,7 @@ published: false
 
 ### Introduce yourself!
 
-If you haven't already created an account at [https://community.verdantlearn.org](https://community.verdantlearn.org), you'll need to do that now
+If you haven't already created an account at [https://community.verdantlearn.org](https://community.verdantlearn.org), you'll need to do that first.  See ```this page``` in the Preparation module for guidance
 
 
 

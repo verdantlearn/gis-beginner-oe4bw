@@ -1,6 +1,5 @@
 ---
 title: Pre-course survey
-published: false
 ---
 
 ## Pre-course survey

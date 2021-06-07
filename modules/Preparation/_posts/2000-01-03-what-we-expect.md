@@ -1,6 +1,5 @@
 ---
 title: Expectations
-published: false
 ---
 
 ## What we expect from you
