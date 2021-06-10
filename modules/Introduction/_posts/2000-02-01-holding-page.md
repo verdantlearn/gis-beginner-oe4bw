@@ -1,5 +1,6 @@
 ---
 title: Welcome
+published: false
 ---
 
 ## Module 1: Introducing QGIS
