@@ -23,6 +23,8 @@ Follow these steps so you're ready to participate when the course begins:
    2. Add a **description** to help others get to know you :wave:
    3. Add your **location** so we can see how our community is distributed across the globe :earth_africa:
 
+You'll be invited to introduce yourself at the beginning of Module 1
+
 To access your Discourse profile:
 - Click on your avatar image (top-right) > Preferences (little person icon) and choose Profile from the left-hand menu <center><img src="{{site.baseurl}}/src/img/Discourse_Menu-Profile.png" alt="Discourse menu - Profile"></center>
 - *OR* paste this url into your browser and substitute your own user name: ```https://community.verdantlearn.org/u/YOUR-USER-NAME/preferences/profile```
