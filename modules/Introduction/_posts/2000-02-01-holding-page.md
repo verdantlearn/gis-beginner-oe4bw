@@ -1,12 +1,5 @@
 ---
-title: Welcome
-published: false
+title: Under construction
 ---
 
-## Module 1: Introducing QGIS
-
-The materials for this module will be published on Friday 11 June 2021
-
-Have you completed the Preparation module?
-
-### Learning objectives
+The next part of this module has yet to be published :exclamation: - please revisit this module on Friday 11 June to see more
