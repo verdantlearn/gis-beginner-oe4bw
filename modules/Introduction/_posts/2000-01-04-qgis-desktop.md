@@ -7,19 +7,19 @@ published: false
 ## QGIS desktop
 
 ### GUI
-Now you've properly joined our learning community, it's time to try out QGIS!  :sparkles:  Use this interactive guide to familiarise yourself with the main sections of the GUI
+Use this interactive guide to familiarise yourself with the main sections of the QGIS GUI
 
 <iframe src="https://verdantlearn.h5p.com/content/1291343455090796897/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ### Toolbars
 
-Open QGIS Desktop (not Browser) on your own computer.  When you first open QGIS, it has many toolbars visible.  To make it easier to find the tools we'll use in this course, and maximise the area available to view your spatial data, let's reduce the panels and toolbars that are visible:
+**Open QGIS Desktop** (not Browser) on your own computer.  When you first open QGIS, it has many toolbars visible.  To make it easier to find the tools we'll use in this course, and maximise the area available to view your spatial data, let's reduce the panels and toolbars that are visible:
 1. Right-click on any part of the toolbars to view the list of panels and toolbars
 2. Select the following (see screenshot below) and ensure everything else is unchecked
    1. Panels: Layers panel
    2. Toolbars: Attributes, Map Navigation and Selection
 
-<NEEDS WORK!  Screencap needed>
+<!-- `NEEDS WORK!`  Screencap of toolbar selection menu -->
 
 <center><img src="{{site.baseurl}}/src/img/***" alt="Panels and toolbars"></center>  
 

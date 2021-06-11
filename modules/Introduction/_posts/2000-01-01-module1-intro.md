@@ -2,10 +2,10 @@
 title: Introduction
 ---
 
-> **Have you completed the pre-course survey and joined our discussion forum?**  If not, please return to the `'Preparation'` module above :point_up:
+> **Have you completed the pre-course survey and joined our community forum?**  If not, please return to the `'Preparation'` module above :point_up:
 
 ## Introduction
-Welcome to Module 1 of 'Introducing GIS for conservation'.  We're so pleased to have you here!  :star: 
+Welcome to Module 1 of 'Introducing GIS for conservation'.  We're so pleased to have you here!  :green_heart: 
 
 In this module, you'll take your first steps in using QGIS, including adding data to a new project and managing how layers are displayed.  You will also decide a specific learning goal that you want to achieve by the end of the course
 

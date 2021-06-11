@@ -5,9 +5,9 @@ published: false
 
 ## What is your learning goal?
 
-The *learning objectives* for this course are very general, and don't take into account your personal motivations for studying, and how you want to use GIS in your work.  To make this more a more powerful learning experience for you, we invite you to decide upon your own personal learning goal, and share it with the community so we can help you achieve it
+The general *learning objectives* for this course don't take into account your personal motivations for studying, and how you want to use GIS in your work.  To make this a more powerful learning experience, we invite you to decide a personal learning goal, and share it with the community so we can help you achieve it
 
-If you wrote down a specific learning goal in the pre-course survey, you can repeat it here.  Otherwise, take a few minutes now to decide what you want to achieve by 11th July
+If you wrote down a specific learning goal in the pre-course survey, you can repeat it here.  Otherwise, take a few minutes now to decide what you want to achieve by 11th July.  **Share your learning goal** by replying to the *Learning goals* topic in our community forum below
 
 > It's okay to have modest goals!  It's more valuable to choose a goal that you have a good chance of achieving than to set yourself up for failure by being too ambitious
 
