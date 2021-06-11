@@ -1,6 +1,5 @@
 ---
 title: QGIS desktop
-published: false
 ---
 
 

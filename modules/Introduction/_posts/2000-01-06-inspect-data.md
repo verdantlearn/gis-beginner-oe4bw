@@ -1,6 +1,5 @@
 ---
 title: Inspect data
-published: false
 ---
 
 ## Inspecting data

@@ -1,6 +1,5 @@
 ---
 title: Learning goals
-published: false
 ---
 
 ## What is your learning goal?

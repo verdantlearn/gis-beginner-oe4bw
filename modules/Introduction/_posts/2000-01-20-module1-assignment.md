@@ -1,6 +1,5 @@
 ---
 title: Assignment 
-published: false
 ---
 
 ## Module 1 assignment

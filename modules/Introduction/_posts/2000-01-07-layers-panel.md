@@ -1,6 +1,5 @@
 ---
 title: Layers panel
-published: false
 ---
 
 ## Using the Layers panel

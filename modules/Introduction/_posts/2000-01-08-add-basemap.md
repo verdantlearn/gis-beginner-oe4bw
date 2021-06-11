@@ -1,6 +1,5 @@
 ---
 title: Add a base map
-published: false
 ---
 
 ## Add a base map

@@ -1,12 +1,10 @@
 ---
 title: Definitions
-published: false
 ---
 
 ## Definitions
 
-
-Let's start with a few definitions.  These are words and phrases that we'll use throughout the course, so it's good to ensure everyone knows their meaning
+Let's start with a few definitions before we dive into using QGIS.  These are words and phrases that we'll use throughout the course, so it's good to ensure everyone knows their meaning
 
 GIS
 : GIS is the combination of **software** :cd: (like QGIS and the geolocation function on your mobile phone) and **hardware** :computer: (your laptop & phone) used to create, manage and analyse spatial data.  A broader definition includes the people who work with the software, so you yourself are part of a GIS!  

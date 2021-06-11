@@ -1,6 +1,5 @@
 ---
 title: Gibbon case study 
-published: false
 ---
 
 ## Case study: Black crested gibbons

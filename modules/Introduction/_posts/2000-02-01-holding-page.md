@@ -1,5 +1,6 @@
 ---
 title: Awaiting release
+published: false
 ---
 
 The next part of this module has yet to be published :exclamation:

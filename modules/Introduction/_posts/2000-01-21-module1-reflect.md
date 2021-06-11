@@ -1,6 +1,5 @@
 ---
 title: Reflection 
-published: false
 ---
 
 Congratulations!  You've started discovering the power of QGIS to visualise spatial data, and decided on a personal learning goal  :sunglasses:
