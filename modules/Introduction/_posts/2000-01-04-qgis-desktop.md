@@ -16,12 +16,15 @@ Use this interactive guide to familiarise yourself with the main sections of the
 **Open QGIS Desktop** (not Browser) on your own computer.  When you first open QGIS, it has many toolbars visible.  To make it easier to find the tools we'll use in this course, and maximise the area available to view your spatial data, let's reduce the panels and toolbars that are visible:
 1. Right-click on any part of the toolbars to view the list of panels and toolbars
 2. Select the following (see screenshot below) and ensure everything else is unchecked
-   1. Panels: Layers panel
-   2. Toolbars: Attributes, Map Navigation and Selection
+   1. Panels: 
+      1. Layers Panel
+   2. Toolbars: 
+      1. Attributes Toolbar
+      2. Map Navigation Toolbar
+      3. Selection Toolbar
 
-<!-- `NEEDS WORK!`  Screencap of toolbar selection menu -->
 
-<center><img src="{{site.baseurl}}/src/img/***" alt="Panels and toolbars"></center>  
+<center><img src="{{site.baseurl}}/src/img/QGIS_ToolbarSelection.png" alt="QGIS selecting toolbars"></center>  
 
 
 Your QGIS window should now look like this.  Here we've positioned the three toolbars separately to make it easy for you to see them, but yours are probably side-by-side, which is fine  
@@ -29,7 +32,7 @@ Your QGIS window should now look like this.  Here we've positioned the three too
 <center><img src="{{site.baseurl}}/src/img/QGIS_SimpleGUI.png" alt="QGIS simpler interface"></center>
 
 
-<!-- For dynamic sizing of content -->
+<!-- For dynamic sizing of H5P content -->
 <script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 *[GUI]: Graphical User Interface
