@@ -6,24 +6,32 @@ published: false
 
 ## Case study
 
-Black crested gibbon, *Nomascus concolor*
+Throughout this course, we encourage you to use your own datasets so you can immediately apply what you're learning.  However, we know that sometimes it's easier to start with a simplified dataset that matches what other learners are using, so we provide data from a case-study
 
-Chế Tạo Nature Reserve, Viet Nam
+We're going to work with field data from surveys of the Critically Endangered western black crested gibbon, *Nomascus concolor* from Chế Tạo Nature Reserve in northern Viet Nam
+
+<center><img src="{{site.baseurl}}/src/img/blackCrestedGibbons_Hoffman.jpg" alt="Western black crested gibbon pair"></center>
+
+Western black crested gibbon pair[^1]
+
+
+Gibbons are arboreal apes dependent on continuous forest canopy.  They live in monogamous family groups composed of a breeding pair and usually 1-2 infants/juveniles.  This particular species was thought to be extinct in Viet Nam until it was rediscovered in 2000.  See the [IUCN Redlist page on black-crested gibbons](https://www.iucnredlist.org/species/39775/17968556) for more information on their ecology and conservation.  
+
+> To start with, you'll add 
+
+
+
 
 You can download the boundary of the Chế Tạo Nature Reserve from Protected Planet: https://www.protectedplanet.net/555594126
 
 
-## Data sources
-### IUCN Red List  
-Pengfei, F., Nguyen, M.H., Phiaphalath, P., Roos, C., Coudrat, C.N.Z. & Rawson, B.M. 2020. Nomascus concolor. The IUCN Red List of Threatened Species 2020: e.T39775A17968556. https://dx.doi.org/10.2305/IUCN.UK.2020-2.RLTS.T39775A17968556.en. Downloaded on 03 June 2021.
+go to
+[www.naturalearthdata.com](http://www.naturalearthdata.com/) for
+background information on the data layers. You are going to open up a
+new, empty project in QGIS, and add a ready-made data layer of countries
+across the globe. You can find instructions for this practical activity
+in the QGIS first steps guide.
 
-### Protected Planet
-UNEP-WCMC and IUCN (2021), Protected Planet: The World Database on Protected Areas (WDPA) and World Database on Other Effective Area-based Conservation Measures (WD-OECM) [Online], June 2021, Cambridge, UK: UNEP-WCMC and IUCN. Available at: www.protectedplanet.net.
 
-### Landcover
-Buchhorn, M.; Smets, B.; Bertels, L.; Lesiv, M.; Tsendbazar, N.-E.; Masiliunas, D.; Linlin, L.; Herold, M.; Fritz, S. (2020). Copernicus Global Land Service: Land Cover 100m: Collection 3: epoch 2019: Globe (Version V3.0.1) [Data set]. Zenodo. DOI: 10.5281/zenodo.3939050
-
-### OpenStreetMap
-Map data copyrighted OpenStreetMap contributors and available from https://www.openstreetmap.org
-
-### Topography
+---
+[^1]: :copyright: [Susan Hoffman](http://zoology.muohio.edu/hoffman/), used under educational fair use exemption

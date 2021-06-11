@@ -2,7 +2,7 @@
 title: Expectations
 ---
 
-## What we expect from you
+### What we expect from you
 
 As with all learning, what you get out of this course depends on what you put into it.
 
@@ -14,3 +14,10 @@ We ask that you:
 - Be **respectful** - Respect the diversity of opinions, life experiences, language skills and confidence within the group.  Accept feedback with the understanding that it is offered to help you improve, not bring you down
 
 We ask that you repay the favour of your free place by taking 10 minutes after the course to complete our evaluation survey.  This helps us improve our learning materials, tech choices and teaching approach.  Thank you  :pray:
+
+<!-- ### What you can expect from us
+
+If you're studying these modules as a tutor-led course, we will endeavour to provide you with support and encouragement to complete all the learning activities, including:
+
+- A twice-weekly email to remind you about the learning activities that week
+- Ra -->

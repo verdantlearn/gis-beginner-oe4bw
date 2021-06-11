@@ -14,3 +14,13 @@ There are two main geospatial data models: vector and raster.
 *Vector Data Model* – best for modeling discrete objects. Vector data comes in three forms: point, line and polygon.
 
 *Raster Data Model* – this model is best for modeling continuous objects. A raster is composed of a matrix of contiguous cells, with each cell (pixel) holding a single numeric value.
+
+
+
+Records/Features
+: definition
+
+Attributes
+: definition
+
+*[attributes]: <NEEDS WORK! Definition of attributes>
