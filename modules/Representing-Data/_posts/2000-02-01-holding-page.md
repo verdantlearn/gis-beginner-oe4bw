@@ -1,9 +1,7 @@
 ---
-title: Welcome
+title: Awaiting release
 ---
 
-## Module 1: Introducting QGIS
+## Module 2: Representing data
 
-The materials for this module will be published on Friday 18 June 2021
-
-### Learning objectives
+The materials for this module are awaiting release, and will be published on Friday 18 June 2021

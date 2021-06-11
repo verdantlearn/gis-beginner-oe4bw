@@ -2,8 +2,6 @@
 title: Welcome
 ---
 
-## Module 1: Introducting QGIS
+## Module 3: Spatial reference systems
 
-The materials for this module will be published on Friday 25 June 2021
-
-### Learning objectives
+The materials for this module are awaiting release, and will be published on Friday 25 June 2021
