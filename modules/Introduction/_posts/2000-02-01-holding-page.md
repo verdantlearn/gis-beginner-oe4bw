@@ -1,5 +1,7 @@
 ---
-title: Countdown...
+title: Awaiting release
 ---
 
-The next part of this module has yet to be published :exclamation: - please revisit this module on Friday 11 June to see more
+The next part of this module has yet to be published :exclamation:
+
+Please revisit this module after Friday 11 June when the remaining materials will be released

@@ -10,7 +10,7 @@ If you haven't already created an account at [https://community.verdantlearn.org
 
 <!-- If you haven't already created an account at [https://community.verdantlearn.org](https://community.verdantlearn.org), you'll need to do that first.  See the [community forum page]({% link modules/Preparation/_posts/2000-01-04-community-forum.md %}) in the Preparation module for instructions on how to sign up and create your profile -->
 
-**Post a self-introduction** by replying to Lucy's post below, or as a new topic in the Learn > GIS category if you prefer
+**Post a self-introduction** by replying to Lucy's post below
 
 Once you've introduced yourself, read through other people's self-introductions and reply to someone to make connections and reward them for their effort.  Try to **find a fellow learner** with whom you have something in common - you can use the Discourse search function (top-right of any community page) to search for a keyword e.g. species name, organisation, country
 
