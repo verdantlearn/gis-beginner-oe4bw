@@ -3,6 +3,20 @@ title: What is a map
 published: false
 ---
 
+Introduce Natural Earth in this module, also OSM
+
+### Natural Earth
+Country boundaries
+
+### Diva GIS
+Digital chart of the world
+
+### OpenStreetMap
+Base map  
+Map data copyrighted OpenStreetMap contributors and available from https://www.openstreetmap.org
+
+
+
 What is a map?
 
 
