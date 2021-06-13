@@ -1,6 +1,5 @@
 ---
 title: Learning circles 
-published: false
 ---
 
 ## Learning circles
