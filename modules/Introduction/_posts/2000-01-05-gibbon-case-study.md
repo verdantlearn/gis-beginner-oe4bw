@@ -25,7 +25,7 @@ Note how the two datasets are in different file formats.  The gibbon sightings a
 
 Let's **add the distribution data** to QGIS:
 > 1. In QGIS, click on the `Layer menu > Add Layer > Add Vector Layer...`
-1. Choose the source file by clicking the [...] button and finding *NomascusConcolor_Distribution**.shp*** - note that it's the file ending in *.SHP* that you need to add to QGIS.  You should see some  
+1. Choose the source file by clicking the [...] button and finding *NomascusConcolor_Distribution**.shp*** - note that it's the file ending in *.SHP* that you need to add to QGIS.  You should several polygons of different sizes and shapes added to your map, which represent this species' distribution
 
 Now we'll **add the gibbon sightings**:
 > 1. Repeat the same process using `Add Vector Layer...` to add *GibbonSightings_Survey1.geojson*
