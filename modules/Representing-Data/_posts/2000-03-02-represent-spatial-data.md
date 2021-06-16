@@ -1,7 +1,10 @@
 ---
-title: Represent spatial data 
+title: Data models
 published: false
 ---
+
+## Data models to represent spatial information
+
 
 ### 2.	Objective: Explore and Understand Geospatial Data Models
 
