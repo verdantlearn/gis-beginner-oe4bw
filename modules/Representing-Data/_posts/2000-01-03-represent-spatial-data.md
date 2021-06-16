@@ -33,3 +33,11 @@ Attributes
 : definition
 
 *[attributes]: <NEEDS WORK! Definition of attributes>
+
+
+
+Can I use sparklines in observable (or Jekyll!?) to illustrate points, lines, polys?
+https://observablehq.com/@maxim-k/sparkline
+https://observablehq.com/@akngs/sparklines
+https://observablehq.com/@kgryte/stdlib-unicode-sparkline-column-chart
+https://observablehq.com/@oliviafvane/branching-sparklines-line-graphs
