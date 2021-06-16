@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Module 1 introduction
 ---
 
 > **Have you completed the pre-course survey and joined our community forum?**  If not, please return to the `'Preparation'` module above :point_up:
