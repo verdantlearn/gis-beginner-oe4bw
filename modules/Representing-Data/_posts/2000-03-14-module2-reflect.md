@@ -2,7 +2,8 @@
 title: Reflection 
 ---
 
-Congratulations!  You've started discovering the power of QGIS to visualise spatial data, and decided on a personal learning goal  :sunglasses:
+Congratulations!  You've ...
+> <NEEDS WORK!>
 
 ## Reflect on your progress
 

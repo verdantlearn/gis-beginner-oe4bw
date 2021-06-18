@@ -1,5 +1,5 @@
 ---
-title: Scale & extent -  NEEDS WORK!
+title: Scale & extent
 published: false
 ---
 
@@ -13,7 +13,7 @@ published: false
 ## Resolution and extent
 
 > Let's add some more technical words to our vocabulary
-{: .notice--warning}
+{: .notice--warning }
 
 ### Resolution
 
