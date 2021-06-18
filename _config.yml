@@ -37,7 +37,12 @@ jumbotron_icon: "src/img/jumbotron-logo.png"
 plugins:
   - jemoji
   # - jekyll-openmoji
+  # - jekyll-mermaid
 
 
 kramdown:
   auto_ids: true
+
+
+# mermaid:
+#   src: 'js/mermaid.min.js'

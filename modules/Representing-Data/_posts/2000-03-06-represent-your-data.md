@@ -3,20 +3,13 @@ title: Represent your data
 published: false
 ---
 
-## Representing your data: Which model works best?
+## Representing your field data
 
-> <NEEDS WORK!>
+What kind of geospatial data do **you** collect in the field?  What do you think is the appropriate geospatial data model for your own data: vector or raster?  If vector, are your layers points, lines or polygons?  If raster, are they thematic or continuous?
 
-What data do you collect in the field?  What kinds of data have you worked with in the past?
+Is it an easy or a difficult decision?  Is there any ambiguity about which data model you should use?
 
-
-
-
-
-
-What is the best data model for your own data?  Is this an easy or a difficult decision?  Is there any ambiguity about which data model (raster, vector, or another) you should choose?
-
-Share your examples of vector/raster datasets in the discussion topic below, plus any questions you may have 
+Share your examples of vector and raster datasets in the discussion topic below, plus any questions you may have
 
 <div id='discourse-comments'></div>
 
@@ -30,3 +23,5 @@ Share your examples of vector/raster datasets in the discussion topic below, plu
   })();
 </script>
 
+*[vector]: Discrete points, lines or polygons
+*[raster]: Continuous grid or image

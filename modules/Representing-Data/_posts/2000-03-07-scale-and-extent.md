@@ -1,73 +1,69 @@
 ---
-title: Scale & extent
+title: Resolution & extent
+# mermaid: true
 published: false
 ---
 
-----
-
-- TOC
-{:toc}
-
-----
-
 ## Resolution and extent
 
-> Let's add some more technical words to our vocabulary
-{: .notice--warning }
+Let's add some more technical words to our growing vocabulary
 
-### Resolution
+Resolution
+: The level of detail in the dataset, indicating the size of the smallest object you can detect
 
-Resolution or scale
-: The level of detail in the dataset, indicating to the size of the smallest object you can detect
+Imagine you have a landscape or piece of art made up of tiles.  You could make much more detailed pictures from tiny mosaic tiles (1cm across) than large flagstones.  Resolution in raster data is determined by the size of grid cells.  Resolution in vector data is determined by the precision of x,y coordinates i.e. how many decimal places the coordinate has, and therefore the minimum spacing at which you can place adjacent points or vertices
 
-Imagine you have a landscape or piece of art made up of tiles.  You could make much more detailed pictures from tiny mosaic tiles (1cm across) than large flagstones.
+High resolution datasets contain a lot of detail within a given area, for example interview data from individual households, or aerial or drone photography on which you might be able to see individual zebra or animal burrows.  Low resolution datasets have lower detail, for example national-level population counts, or imagery from early satellites such as Landsat (30m grid cells). 
 
-High resolution datasets contain a lot of detail within a given area, for example interview data from individual households, or aerial or drone photography on which you might be able to see individual plants or animal sign such as burrows.  Low resolution datasets have lower detail, for example national-level population counts or imagery from early satellites such as Landsat (30m grid cells). 
-
-Also know as grain or frequency.  I prefer the terms 'fine grain' (think silt or sand) to indicate high resolution, and 'coarse grain' (think boulders or pebbles) for low resolution, as I think these phrases are more intuitive and easy to remember
-
-### Extent
+Also known as *grain*, or *frequency*.  I prefer the terms 'fine grain' (think silt or sand) to indicate high resolution, and 'coarse grain' (think boulders or pebbles) for low resolution, as these phrases are more intuitive and easy to remember
 
 Extent
-: The extent of a dataset is the area that it covers
-: Also know as coverage
+: The area covered by the dataset, also known as *coverage*
 
+Contrast a global dataset (large extent) with data from a single survey location (small extent)
 
-These terms apply to all types of data, including both vector and raster
 
 ### Spatial *and* temporal 
 
-These terms can be applied to the **temporal dimension** (time) as well as the spatial.  In other words, you can describe a dataset as having high temporal resolution (e.g. repeat observations every hour), or low temporal coverage (e.g. only a single )
+The terms resolution and extent can be applied to the **temporal dimension** (time) as well as the spatial.  In other words, you can describe a dataset as having high temporal resolution (e.g. observations repeated every minute), or low temporal resolution (e.g. observations spaced many years apart)
 
 Dimension  &nbsp; | Property  &nbsp; | Example of a low value &nbsp; | Example of a high value &nbsp; 
 ---|---|---
-Spatial  | Scale | Single survey location | Entire continent
 Spatial | Resolution | One value per country | Submetre grid cells
-Temporal | Scale | Single point in time | Spanning multiple decades
+Spatial  | Extent | Single survey location | Entire continent
 Temporal &nbsp; | Resolution &nbsp; | Every decade | Every minute
+Temporal | Extent | Single point in time | Spanning multiple decades
+
 
 ### See it for yourself
 
-To help you understand these concepts, compare OSM, Diva GIS (DCW) and Natural Earth
-Compare Protected Planet (download) and IUCN Redlist
+To help you understand these concepts, load the following new datasets to your QGIS project:
+
+> 1. <a href="{{site.baseurl}}/src/datasets/OpenStreetMap_CheTao.osm" download>*OpenStreetMap*</a> fine grain vector data: add using `Add Vector Layer...`
+1. Coarse-grained data from the *Digital Chart of the World* - select 'Vietnam' and the following two datasets from the [DivaGIS data download page](https://diva-gis.org/gdata):
+   1. Roads (shapefile)
+   2. Land cover (virtual raster): add using `Add Raster Layer...` or drag & drop the *.vrt* file into your QGIS map view
+2. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*
+
+<br>
+
+> 1. Compare the visual detail of the **roads** from OSM and DCW
+2. Compare the fine-grain Che Tao **Nature Reserve boundaries** from Protected Planet with the corresponding polygon in the IUCN Redlist's *NomascusConcolor_Distribution* layer
+3. Compare the two **landcover** raster layers from Copernicus and DCW
 
 
-#### Download Protected Area boundaries
-
-Please download the boundary of the Chế Tạo Nature Reserve from Protected Planet: https://www.protectedplanet.net/555594126
-
-
-go to [www.naturalearthdata.com](http://www.naturalearthdata.com/) for information about the Natural Earth layers 
+<!-- 2. Natural Earth -->
+<!-- Information about [Natural Earth](http://www.naturalearthdata.com/) -->
 
 
-### Discuss
+<!-- ### Discuss
 
-> How would you describe this in your own words?  Share below?  Give examples?
+> How would you describe this in your own words?  Share below?  Give examples? -->
 
 
-*[grain]: Level of detail
-*[Grain]: Level of detail
 *[resolution]: Level of detail
 *[Resolution]: Level of detail
-*[scale]: Level of detail <NEEDS WORK!>
-*[Scale]: Level of detail <NEEDS WORK!>
+*[extent]: Area or time period covered
+*[Extent]: Area or time period covered
+*[OSM]: OpenStreetMap
+*[DCW]: Digital Chart of the World
