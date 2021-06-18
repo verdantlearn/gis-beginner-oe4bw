@@ -20,7 +20,7 @@ First you'll need to **download** the gibbon sightings.  Clicking on the links b
 1. Download <a href="{{site.baseurl}}/src/datasets/NomascusConcolor_Distribution.zip" download>NomascusConcolor_Distribution.zip</a>
 2. Unzip the gibbon distribution files into your folder
 3. Download <a href="{{site.baseurl}}/src/datasets/GibbonSightings_Survey1.geojson" download>GibbonSightings_Survey1.geojson</a>
-   1. If you're having difficulty downloading the *.geojson* file, try downloading and unzipping this *.zip* archive instead: <a href="{{site.baseurl}}/src/datasets/GibbonSightings_Survey1.geojson" download>GibbonSightings_Survey1.zip</a>
+   1. If you're having difficulty downloading the *.geojson* file, try downloading and unzipping this *.zip* archive instead: <a href="{{site.baseurl}}/src/datasets/GibbonSightings_Survey1.zip" download>GibbonSightings_Survey1.zip</a>
 
 Note how the two datasets are in different file formats.  The gibbon sightings are a single *.geojson* file, while the species distribution dataset is an ESRI shapefile, composed of many separate files with different file extensions: *.shp*, *.dbf* etc
 
