@@ -2,7 +2,7 @@
 title: Reflection 
 ---
 
-Congratulations!  You've learned about the two main models for representing geospatial data, raster and vector, and considered the sources and effects of uncertainty in your GIS work
+Congratulations!  You've learned about the two main models for representing geospatial data, raster and vector, and considered the sources and effects of uncertainty in your GIS work :thinking:
 
 ## Reflect on your progress
 
