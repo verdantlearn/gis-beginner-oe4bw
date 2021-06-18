@@ -3,6 +3,8 @@ title: Attributes
 published: false
 ---
 
+> Keep unpublished for now
+
 ## Attributes
 
 ### Symbolise by attributes

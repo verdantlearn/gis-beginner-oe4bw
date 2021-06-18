@@ -1,6 +1,5 @@
 ---
 title: Vector
-published: false
 ---
 
 ## Vector data model

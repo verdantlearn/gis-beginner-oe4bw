@@ -11,7 +11,7 @@
   <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
   <meta charset="utf-8">
   <!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
-  <title>Introducing GIS for conservation | Assignment</title>
+  <title>Introducing GIS for conservation | Raster</title>
   
   <meta name="description" content="A GIS beginner course for wildlife conservation professionals and students, built by Dr Lucy Tallents for VerdantLearn">
   <meta name="author" content="">
@@ -134,7 +134,7 @@
 				</a>
 			</li>
 		
-			<li class="  ">
+			<li class="active  ">
 				<a href="/modules/representing-data/raster-data/">
 					Raster
 				</a>
@@ -164,7 +164,7 @@
 				</a>
 			</li>
 		
-			<li class="active  ">
+			<li class="  ">
 				<a href="/modules/representing-data/module2-assignment/">
 					Assignment
 				</a>
@@ -191,54 +191,120 @@
 
 		<div class="col-xl-6 col-md-9 bg-white">
 			<div class="content p-md-2">
-				<h2 id="module-2-assignment">Module 2 assignment</h2>
+				<h2 id="raster-data-model">Raster data model</h2>
 
-<p>You need to submit <em>every</em> assignment to qualify for a certificate of completion.
-Each assignment includes three parts:</p>
-<ol>
-  <li>
-<strong>Evidence</strong> <img class="emoji" title=":information_source:" alt=":information_source:" src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png" height="20" width="20"> - A screenshot of QGIS showing your progress</li>
-  <li>
-<strong>Reflection</strong> <img class="emoji" title=":thought_balloon:" alt=":thought_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ad.png" height="20" width="20"> - A paragraph describing your experience of the learning activities on this module</li>
-  <li>
-<strong>Peer feedback</strong> <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20"> - A comment on someone else’s assignment</li>
-</ol>
+<p>The raster data model is best for modeling properties which <strong>vary continuously</strong> across the landscape, and can be measured at any location</p>
 
-<h3 id="prepare-your-assignment">Prepare your assignment</h3>
-
-<ol>
-  <li>Save a <strong>screenshot</strong> of your QGIS project after the final exercise - <em>this is your Evidence</em> <img class="emoji" title=":information_source:" alt=":information_source:" src="https://github.githubassets.com/images/icons/emoji/unicode/2139.png" height="20" width="20">  You can use your own field data, or choose whichever of the case study datasets you wish to show.  Your goal is not to reproduce my QGIS examples exactly, but to <em>experiment and develop your own individual interests and style</em> - you decide which area to zoom into, which layers to make visible, and how to symbolise them</li>
-  <li>Write a <strong>paragraph</strong> briefly describing how this module’s activities have contributed to progress towards your learning goal - <em>this is your Reflection</em> <img class="emoji" title=":thought_balloon:" alt=":thought_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ad.png" height="20" width="20">
+<p>Examples of raster features from field surveys or remote sensing:</p>
+<ul>
+  <li>Soil type or vegetation class <img class="emoji" title=":evergreen_tree:" alt=":evergreen_tree:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f332.png" height="20" width="20"> <img class="emoji" title=":deciduous_tree:" alt=":deciduous_tree:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f333.png" height="20" width="20">
 </li>
-  <li>If you encountered any problems doing the exercises, you can include how you solved them - this is optional but also encourages you to spend time on <em>Reflection</em>.  If you’re still stuck, seek help in the community forum - see the <em>Getting help</em> page in Preparation above!</li>
-</ol>
+  <li>Elevation <img class="emoji" title=":mountain:" alt=":mountain:" src="https://github.githubassets.com/images/icons/emoji/unicode/26f0.png" height="20" width="20">
+</li>
+  <li>Plant density <img class="emoji" title=":ear_of_rice:" alt=":ear_of_rice:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f33e.png" height="20" width="20">
+</li>
+  <li>Ice depth <img class="emoji" title=":snowflake:" alt=":snowflake:" src="https://github.githubassets.com/images/icons/emoji/unicode/2744.png" height="20" width="20">
+</li>
+  <li>Vegetation productivity <img class="emoji" title=":seedling:" alt=":seedling:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f331.png" height="20" width="20"> <img class="emoji" title=":fallen_leaf:" alt=":fallen_leaf:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f342.png" height="20" width="20">
+</li>
+  <li>Suitability or risk <img class="emoji" title=":radioactive:" alt=":radioactive:" src="https://github.githubassets.com/images/icons/emoji/unicode/2622.png" height="20" width="20">
+</li>
+</ul>
 
-<h3 id="submit-your-assignment">Submit your assignment</h3>
-<p>To submit your assignment, reply to the <em>Module 2 assignment</em> topic in our community forum - see below</p>
+<p>A raster dataset is composed of a <strong>uniform grid</strong> of identically-sized cells (usually square), with each cell (or <abbr title="Single cell in a raster grid">pixel</abbr>) holding a single numeric value</p>
 
-<h3 id="offer-feedback-to-peers">Offer feedback to peers</h3>
-<p>Reply to one or more of the other learners’ assignments - <em>this is your Peer feedback</em> <img class="emoji" title=":speech_balloon:" alt=":speech_balloon:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4ac.png" height="20" width="20">  Your reply should include three elements:</p>
-<ol>
+<dl>
+  <dt>Raster attributes</dt>
+  <dd>Raster attributes are about the variable at that location, stored as a cell value.  Each grid cell can only store a single value, so if multiple attributes need to be stored (e.g. elevation <em>and</em> slope), multiple rasters are needed, which are sometimes bound together in a raster stack</dd>
+</dl>
+
+<p>Rasters values can be:</p>
+<ul>
   <li>
-<strong>Positive feedback</strong>: What have they done well?</li>
+<strong>Quantities</strong> - <em>continuous</em> variables such as rainfall or density.  The <abbr title="Digital Elevation Model">DEM</abbr> we’ll use below is an example of a continuous raster</li>
   <li>
-<strong>Suggestion or question</strong>: A suggestion for improvement or extending what they’ve done, or a question if there’s something they need to clarify</li>
-  <li>
-<strong>Reflection</strong>: What you’ve learned from their work that you can apply to your own?</li>
-</ol>
+<strong>Thematic</strong> - <em>categories</em> such as vegetation class, presence/absence of a species, represented by a numerical code</li>
+</ul>
 
-<div id="discourse-comments"></div>
+<p>Our LandCover dataset is an example of a thematic raster - each <abbr title="Single cell in a raster grid">pixel</abbr> contains a code indicating the landcover class at that location.  These are the classes that occur in and around Che Tao Nature Reserve:<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></p>
 
-<script type="text/javascript">
-  window.DiscourseEmbed = { discourseUrl: 'https://community.verdantlearn.org/', topicId: 531 };
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Code  </th>
+      <th>  Landcover class</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">20  </td>
+      <td>  Shrubs</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">30  </td>
+      <td>  Herbaceous vegetation</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">40  </td>
+      <td>  Cropland</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">50  </td>
+      <td>  Urban</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">80  </td>
+      <td>  Permanent water bodies</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">90  </td>
+      <td>  Herbaceous wetland</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">111  </td>
+      <td>  Closed forest, evergreen needle leaf</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">112  </td>
+      <td>  Closed forest, evergreen broad leaf</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">114  </td>
+      <td>  Closed forest, deciduous broad leaf</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">116  </td>
+      <td>  Closed forest, unknown</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">122  </td>
+      <td>  Open forest, evergreen broad leaf</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">126  </td>
+      <td>  Open forest, unknown</td>
+    </tr>
+  </tbody>
+</table>
 
-  (function() {
-    var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
-    d.src = window.DiscourseEmbed.discourseUrl + 'javascripts/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(d);
-  })();
-</script>
+<p><img src="/src/img/RasterExample.png" alt="Landcover as an example of a thematic raster"></p>
 
+<h3 id="quiz-raster-data-model">Quiz: Raster data model</h3>
+
+<p>Here’s another quick quiz!  <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20"></p>
+
+<iframe src="https://verdantlearn.h5p.com/content/1291354595816641297/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+<script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+<script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Download the complete list of <a href="/src/datasets/LandCover_ClassDefinitions.pdf" download="">Copernicus land cover classes</a> <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
+    </li>
+  </ol>
+</div>
 
 				
 
@@ -253,8 +319,8 @@ Each assignment includes three parts:</p>
 						<div class="title">
 							Previous submodule:
 						</div>
-						<a rel="prev" class="prev" href="/modules/representing-data/discuss-uncertainty/">
-							Discuss uncertainty </a>
+						<a rel="prev" class="prev" href="/modules/representing-data/vector-data/">
+							Vector </a>
 				
 					</div>
 				
@@ -262,7 +328,7 @@ Each assignment includes three parts:</p>
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="/modules/representing-data/module2-reflect/"> Reflection
+						<a rel="next" class="next" href="/modules/representing-data/represent-your-data/"> Represent your data
 						</a>
 					</div>
 				

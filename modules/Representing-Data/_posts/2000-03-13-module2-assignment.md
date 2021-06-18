@@ -14,7 +14,7 @@ Each assignment includes three parts:
 
 1. Save a **screenshot** of your QGIS project after the final exercise - *this is your Evidence* :information_source:  You can use your own field data, or choose whichever of the case study datasets you wish to show.  Your goal is not to reproduce my QGIS examples exactly, but to *experiment and develop your own individual interests and style* - you decide which area to zoom into, which layers to make visible, and how to symbolise them
 2. Write a **paragraph** briefly describing how this module's activities have contributed to progress towards your learning goal - *this is your Reflection* :thought_balloon:
-3. If you encountered any problems doing the exercises, you can include how you solved them - this is optional but also encourages you to spend time on *Reflection*  If you're still stuck, seek help in the community forum - see the *Getting help* page in Preparation above!
+3. If you encountered any problems doing the exercises, you can include how you solved them - this is optional but also encourages you to spend time on *Reflection*.  If you're still stuck, seek help in the community forum - see the *Getting help* page in Preparation above!
 
 ### Submit your assignment
 To submit your assignment, reply to the *Module 2 assignment* topic in our community forum - see below

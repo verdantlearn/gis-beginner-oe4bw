@@ -11,7 +11,7 @@
   <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
   <meta charset="utf-8">
   <!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
-  <title>Introducing GIS for conservation | Reflection</title>
+  <title>Introducing GIS for conservation | Resolution & extent</title>
   
   <meta name="description" content="A GIS beginner course for wildlife conservation professionals and students, built by Dr Lucy Tallents for VerdantLearn">
   <meta name="author" content="">
@@ -151,7 +151,7 @@
 				</a>
 			</li>
 		
-			<li class="  ">
+			<li class="active  ">
 				<a
 						href="/modules/representing-data/scale-and-extent/">
 					Resolution & extent
@@ -179,7 +179,7 @@
 				</a>
 			</li>
 		
-			<li class="active  last">
+			<li class="  last">
 				<a
 						href="/modules/representing-data/module2-reflect/">
 					Reflection
@@ -201,17 +201,103 @@
 
 		<div class="col-xl-6 col-md-9 bg-white">
 			<div class="content p-md-2">
-				<p>Congratulations!  You’ve learned about the two main models for representing geospatial data, raster and vector, and considered the sources and effects of uncertainty in your GIS work</p>
+				<h2 id="resolution-and-extent"><abbr title="Level of detail">Resolution</abbr> and <abbr title="Area or time period covered">extent</abbr></h2>
 
-<h2 id="reflect-on-your-progress">Reflect on your progress</h2>
+<p>Let’s add some more technical words to our growing vocabulary</p>
 
-<p>Take a few minutes to <strong>reflect</strong> on what you’ve learned this week</p>
-<ol>
-  <li>What is the <em>most useful</em> thing you’ve learned so far?</li>
-  <li>What is your biggest <em>remaining question</em> at this point?</li>
-</ol>
+<dl>
+  <dt><abbr title="Level of detail">Resolution</abbr></dt>
+  <dd>The level of detail in the dataset, indicating the size of the smallest object you can detect</dd>
+</dl>
 
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrNMWNfMRthPQ2XD?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+<p>Imagine you have a landscape or piece of art made up of tiles.  You could make much more detailed pictures from tiny mosaic tiles (1cm across) than large flagstones.  <abbr title="Level of detail">Resolution</abbr> in raster data is determined by the size of grid cells.  <abbr title="Level of detail">Resolution</abbr> in vector data is determined by the precision of x,y coordinates i.e. how many decimal places the coordinate has, and therefore the minimum spacing at which you can place adjacent points or vertices</p>
+
+<p>High <abbr title="Level of detail">resolution</abbr> datasets contain a lot of detail within a given area, for example interview data from individual households, or aerial or drone photography on which you might be able to see individual zebra or animal burrows.  Low <abbr title="Level of detail">resolution</abbr> datasets have lower detail, for example national-level population counts, or imagery from early satellites such as Landsat (30m grid cells).</p>
+
+<p>Also known as <em>grain</em>, or <em>frequency</em>.  I prefer the terms ‘fine grain’ (think silt or sand) to indicate high <abbr title="Level of detail">resolution</abbr>, and ‘coarse grain’ (think boulders or pebbles) for low <abbr title="Level of detail">resolution</abbr>, as these phrases are more intuitive and easy to remember</p>
+
+<dl>
+  <dt><abbr title="Area or time period covered">Extent</abbr></dt>
+  <dd>The area covered by the dataset, also known as <em>coverage</em></dd>
+</dl>
+
+<p>Contrast a global dataset (large <abbr title="Area or time period covered">extent</abbr>) with data from a single survey location (small <abbr title="Area or time period covered">extent</abbr>)</p>
+
+<h3 id="spatial-and-temporal">Spatial <em>and</em> temporal</h3>
+
+<p>The terms <abbr title="Level of detail">resolution</abbr> and <abbr title="Area or time period covered">extent</abbr> can be applied to the <strong>temporal dimension</strong> (time) as well as the spatial.  In other words, you can describe a dataset as having high temporal <abbr title="Level of detail">resolution</abbr> (e.g. observations repeated every minute), or low temporal <abbr title="Level of detail">resolution</abbr> (e.g. observations spaced many years apart)</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Dimension   </th>
+      <th>Property   </th>
+      <th>Example of a low value  </th>
+      <th>Example of a high value  </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spatial</td>
+      <td><abbr title="Level of detail">Resolution</abbr></td>
+      <td>One value per country</td>
+      <td>Submetre grid cells</td>
+    </tr>
+    <tr>
+      <td>Spatial</td>
+      <td><abbr title="Area or time period covered">Extent</abbr></td>
+      <td>Single survey location</td>
+      <td>Entire continent</td>
+    </tr>
+    <tr>
+      <td>Temporal  </td>
+      <td><abbr title="Level of detail">Resolution</abbr>  </td>
+      <td>Every decade</td>
+      <td>Every minute</td>
+    </tr>
+    <tr>
+      <td>Temporal</td>
+      <td><abbr title="Area or time period covered">Extent</abbr></td>
+      <td>Single point in time</td>
+      <td>Spanning multiple decades</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="see-it-for-yourself">See it for yourself</h3>
+
+<p>To help you understand these concepts, load the following new datasets to your QGIS project:</p>
+
+<blockquote>
+  <ol>
+    <li><a href="/src/datasets/OpenStreetMap_CheTao.osm" download=""><em>OpenStreetMap</em></a> fine grain vector data: add using <code class="language-plaintext highlighter-rouge">Add Vector Layer...</code></li>
+    <li>Coarse-grained data from the <em>Digital Chart of the World</em> - select ‘Vietnam’ and the following two datasets from the <a href="https://diva-gis.org/gdata">DivaGIS data download page</a>:
+      <ol>
+        <li>Roads (shapefile)</li>
+        <li>Land cover (virtual raster): add using <code class="language-plaintext highlighter-rouge">Add Raster Layer...</code> or drag &amp; drop the <em>.vrt</em> file into your QGIS map view</li>
+      </ol>
+    </li>
+    <li><a href="https://www.protectedplanet.net/555594126">Chế Tạo Nature Reserve boundary</a> from <em>Protected Planet</em></li>
+  </ol>
+</blockquote>
+
+<p><br /></p>
+
+<blockquote>
+  <ol>
+    <li>Compare the visual detail of the <strong>roads</strong> from <abbr title="OpenStreetMap">OSM</abbr> and <abbr title="Digital Chart of the World">DCW</abbr></li>
+    <li>Compare the fine-grain Che Tao <strong>Nature Reserve boundaries</strong> from Protected Planet with the corresponding polygon in the IUCN Redlist’s <em>NomascusConcolor_Distribution</em> layer</li>
+    <li>Compare the two <strong>landcover</strong> raster layers from Copernicus and <abbr title="Digital Chart of the World">DCW</abbr></li>
+  </ol>
+</blockquote>
+
+<!-- 2. Natural Earth -->
+<!-- Information about [Natural Earth](http://www.naturalearthdata.com/) -->
+
+<!-- ### Discuss
+
+> How would you describe this in your own words?  Share below?  Give examples? -->
+
 
 				
 
@@ -226,9 +312,17 @@
 						<div class="title">
 							Previous submodule:
 						</div>
-						<a rel="prev" class="prev" href="/modules/representing-data/module2-assignment/">
-							Assignment </a>
+						<a rel="prev" class="prev" href="/modules/representing-data/represent-your-data/">
+							Represent your data </a>
 				
+					</div>
+				
+					<div class="pagination-section text-sm-right col-sm-6">
+						<div class="title">
+							Next submodule:
+						</div>
+						<a rel="next" class="next" href="/modules/representing-data/uncertainty/"> Uncertainty
+						</a>
 					</div>
 				
         </div>

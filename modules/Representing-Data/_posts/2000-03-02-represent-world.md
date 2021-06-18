@@ -1,6 +1,5 @@
 ---
 title: Represent the world
-published: false
 ---
 
 ## Representing the world around us

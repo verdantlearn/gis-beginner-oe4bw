@@ -1,6 +1,5 @@
 ---
 title: Raster
-published: false
 ---
 
 ## Raster data model

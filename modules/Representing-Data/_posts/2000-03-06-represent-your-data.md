@@ -1,6 +1,5 @@
 ---
 title: Represent your data
-published: false
 ---
 
 ## Representing your field data

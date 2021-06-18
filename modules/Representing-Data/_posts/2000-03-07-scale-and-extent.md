@@ -1,7 +1,5 @@
 ---
 title: Resolution & extent
-# mermaid: true
-published: false
 ---
 
 ## Resolution and extent

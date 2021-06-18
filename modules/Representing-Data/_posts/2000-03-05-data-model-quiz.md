@@ -3,6 +3,8 @@ title: "Quiz: Data models"
 published: false
 ---
 
+> Keep unpublished for now
+
 ## Spatial data models
 ### Quiz: Spatial data models
 
