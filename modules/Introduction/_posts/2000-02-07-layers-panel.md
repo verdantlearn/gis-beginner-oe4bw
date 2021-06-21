@@ -9,9 +9,11 @@ Most of QGIS' functionality is based around working with layers, and the Layers 
 
 To help you become familiar with another type of spatial data, and practice managing layers, we're going to **add a landcover image** from the Copernicus global land cover map[^1]:
 
-> 1. Download the <a href="{{site.baseurl}}/src/datasets/LandCover.tif" download>LandCover**.tif**</a> image (note the *.tif* file extension) and save it in your gibbon project folder
-1. Download its partner <a href="{{site.baseurl}}/src/datasets/LandCover.qml" download>LandCover**.qml**</a> style file (note the *.qml* file extension) and save it in the same folder as the *.tif*.  This file ensures your image is coloured correctly by QGIS[^2]
-2. Add the image using `Layer menu > Add Layer > Add Raster Layer...` - click on the `...` button to select *LandCover.tif*.  Don't worry at this stage if the landcover layer obscures your other datasets - we'll fix that shortly
+> 1. Download the two Landcover files and save them both to your gibbon project folder:
+    1. <a href="{{site.baseurl}}/src/datasets/LandCover.tif" download>LandCover**.tif**</a> image (note the *.tif* file extension)
+    2. Its partner <a href="{{site.baseurl}}/src/datasets/LandCover.qml" download>LandCover**.qml**</a> style file (note the *.qml* file extension).  This file ensures your image is coloured correctly by QGIS[^2] according to the Copernicus stylesheet, and must be saved in the same folder as the *.tif*
+    3. Alternatively, download <a href="{{site.baseurl}}/src/datasets/LandCover.zip" download>Landcover.**zip**</a>, which contains both *.tif* and *.qml* files
+1. Add the image using `Layer menu > Add Layer > Add Raster Layer...` - click on the `...` button to select *LandCover.tif*.  Don't worry at this stage if the landcover layer obscures your other datasets - we'll fix that shortly
 
 ### Zoom to landcover layer
 
