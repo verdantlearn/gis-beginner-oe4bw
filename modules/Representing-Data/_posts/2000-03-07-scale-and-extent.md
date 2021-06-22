@@ -22,6 +22,8 @@ Contrast a global dataset (large extent) with data from a single survey location
 
 ### Contrasting spatial resolutions
 
+Move the slider across the images below to see how the resolution affects the complexity and precision of spatial data
+
 <iframe src="https://verdantlearn.h5p.com/content/1291357976659369267/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ### Spatial *and* temporal 
