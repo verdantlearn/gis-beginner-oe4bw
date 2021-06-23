@@ -24,7 +24,7 @@ Longitude
 : 
 
 
-Interactive dataviz of what coordinates mean (spherical versus cartesian) - draggable globe with tooltip of coordinates in multiple CRSs, or later?
+Interactive dataviz of what coordinates mean (spherical versus cartesian) - draggable globe with tooltip of coordinates in multiple SRSs, or later?
 Or diagram of meridians and parallels
 
 ### H5P quiz
@@ -42,3 +42,4 @@ Use lat-long coordinates to find feature on map - what type of features (click o
 
 
 *[coordinates]: pair of numbers indicating distance along x and y axes
+*[SRS]: Spatial Reference System
