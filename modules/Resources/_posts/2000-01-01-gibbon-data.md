@@ -18,7 +18,8 @@ Clicking on the links to *.zip* files should open a 'Download' pop-up in your br
 ## Module 2
 
 1. <a href="{{site.baseurl}}/src/datasets/IntroGIS_Module2.zipl" download>IntroGIS_Module2.zip</a>, containing:
-   1. OpenStreetMap_CheTao
+   1. OpenStreetMap_CheTao.osm
+   2. VNM_Cover.qml - QGIS style file to improve symbology of the coarse grain Landcover layer from DivaGIS  
 2. [DivaGIS data downloads](https://diva-gis.org/gdata): Roads (shapefile) and Land cover (virtual raster) for Vietnam
 3. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*
 
