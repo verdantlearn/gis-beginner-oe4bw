@@ -1,9 +1,11 @@
 ---
-title: Map projections
+title: Map projection
 published: false
 ---
 
-## Map projections
+## Map projection
+
+Here's another phrase to add to our GIS vocabulary 
 
 Map projection
 : A map projection is ... Definition
