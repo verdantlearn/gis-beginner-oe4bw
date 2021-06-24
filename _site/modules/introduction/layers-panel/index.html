@@ -63,26 +63,29 @@
       
        
        <li class="nav-item py-2">
-<<<<<<< HEAD
-         <a class="nav-link" href="/modules/representing-data/represent-spatial-data/">
-=======
          <a class="nav-link" href="/modules/representing-data/module2-intro/">
->>>>>>> dev
            Representing-Data
          </a>
        </li>
       
        
        <li class="nav-item py-2">
-         <a class="nav-link" href="/modules/spatial-reference-systems/map-projections/">
+         <a class="nav-link" href="/modules/spatial-reference-systems/module3-intro/">
            Spatial-Reference-Systems
          </a>
        </li>
       
        
        <li class="nav-item py-2">
-         <a class="nav-link" href="/modules/making-maps/what-is-a-map/">
+         <a class="nav-link" href="/modules/making-maps/module-4-intro/">
            Making-Maps
+         </a>
+       </li>
+      
+       
+       <li class="nav-item py-2">
+         <a class="nav-link" href="/modules/resources/gibbon-data/">
+           Resources
          </a>
        </li>
       
@@ -199,11 +202,7 @@
 			<div class="title">
 				Next module:
 			</div>
-<<<<<<< HEAD
-			<a rel="next" class="next" href="/modules/representing-data/represent-spatial-data/"> Representing-Data
-=======
 			<a rel="next" class="next" href="/modules/representing-data/module2-intro/"> Representing-Data
->>>>>>> dev
 			</a>
 		</div>
 	
@@ -220,9 +219,15 @@
 
 <blockquote>
   <ol>
-    <li>Download the <a href="/src/datasets/LandCover.tif" download="">LandCover<strong>.tif</strong></a> image (note the <em>.tif</em> file extension) and save it in your gibbon project folder</li>
-    <li>Download its partner <a href="/src/datasets/LandCover.qml" download="">LandCover<strong>.qml</strong></a> style file (note the <em>.qml</em> file extension) and save it in the same folder as the <em>.tif</em>.  This file ensures your image is coloured correctly by QGIS<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>
+    <li>Download the two Landcover files and save them both to your gibbon project folder:
+      <ol>
+        <li>
+<a href="/src/datasets/LandCover.tif" download="">LandCover<strong>.tif</strong></a> image (note the <em>.tif</em> file extension)</li>
+        <li>Its partner <a href="/src/datasets/LandCover.qml" download="">LandCover<strong>.qml</strong></a> style file (note the <em>.qml</em> file extension).  This file ensures your image is coloured correctly by QGIS<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> according to the Copernicus stylesheet, and must be saved in the same folder as the <em>.tif</em>
 </li>
+        <li>Alternatively, download <a href="/src/datasets/LandCover.zip" download="">Landcover.<strong>zip</strong></a>, which contains both <em>.tif</em> and <em>.qml</em> files</li>
+      </ol>
+    </li>
     <li>Add the image using <code class="language-plaintext highlighter-rouge">Layer menu &gt; Add Layer &gt; Add Raster Layer...</code> - click on the <code class="language-plaintext highlighter-rouge">...</code> button to select <em>LandCover.tif</em>.  Don’t worry at this stage if the landcover layer obscures your other datasets - we’ll fix that shortly</li>
   </ol>
 </blockquote>
