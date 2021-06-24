@@ -6,6 +6,12 @@ published: false
 ## Introduction
 Welcome to Module 3 of 'Introducing GIS for conservation'
 
+# Knowing our location
+
+
+How do we know where we are?
+How do we communicate location precisely?
+
 > What we'll build <NEEDS WORK!>
 
 ### Learning objectives

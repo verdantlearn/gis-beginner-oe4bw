@@ -3,20 +3,18 @@ title: Reprojecting
 published: false
 ---
 
-## Reprojecting data to a different SRS
+## Reproject: Converting data to a different SRS
+
+
 
 
 For analysis
 For simplicity
 
-### Calculate geometry attributes
 
-Add geometry:
-- Area of Che Tao or RedList
-- Coordinates of xx?
-- Distance to sth on OSM e.g. central Che Tao village (extrac to separate geojson or only calculate from selected)
+### Reproject Binh's survey data
 
-
+### Merge into a single file
 
 ### Final QGIS exercise
 Are your layers all correctly aligned?
