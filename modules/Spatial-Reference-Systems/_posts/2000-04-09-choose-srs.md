@@ -1,6 +1,5 @@
 ---
 title: Choosing an SRS
-published: false
 ---
 
 ## Choosing an SRS

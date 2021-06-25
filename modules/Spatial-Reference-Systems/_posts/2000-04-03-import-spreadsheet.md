@@ -1,6 +1,5 @@
 ---
 title: Import a spreadsheet
-published: false
 ---
 
 ## Import spatial data from a spreadsheet
