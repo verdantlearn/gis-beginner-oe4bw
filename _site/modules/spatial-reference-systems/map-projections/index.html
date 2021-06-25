@@ -11,7 +11,7 @@
   <script type="text/javascript">var _sf_startpt = (new Date()).getTime()</script>
   <meta charset="utf-8">
   <!--[if IE]><meta content='IE=8' http-equiv='X-UA-Compatible' /><![endif]-->
-  <title>Introducing GIS for conservation | Map projections</title>
+  <title>Introducing GIS for conservation | Map projection</title>
   
   <meta name="description" content="A GIS beginner course for wildlife conservation professionals and students, built by Dr Lucy Tallents for VerdantLearn">
   <meta name="author" content="">
@@ -119,41 +119,79 @@
 			<a rel="prev" class="prev" href="/modules/representing-data/module2-intro/">
 				Representing-Data </a>
 		</div>
-		<hr />
+		<hr>
 	
 	<ul>
 		
 			<li class=" first ">
-				<a
-						href="/modules/spatial-reference-systems/module3-intro/">
+				<a href="/modules/spatial-reference-systems/module3-intro/">
 					Module 3 introduction
 				</a>
 			</li>
 		
+			<li class="  ">
+				<a href="/modules/spatial-reference-systems/coordinates/">
+					Coordinates
+				</a>
+			</li>
+		
 			<li class="active  ">
-				<a
-						href="/modules/spatial-reference-systems/map-projections/">
-					Map projections
+				<a href="/modules/spatial-reference-systems/map-projections/">
+					Map projection
 				</a>
 			</li>
 		
 			<li class="  ">
-				<a
-						href="/modules/spatial-reference-systems/survey-2/">
-					Survey 2
+				<a href="/modules/spatial-reference-systems/datum/">
+					Geodetic datum
+				</a>
+			</li>
+		
+			<li class="  ">
+				<a href="/modules/spatial-reference-systems/reproject/">
+					Reprojecting
+				</a>
+			</li>
+		
+			<li class="  ">
+				<a href="/modules/spatial-reference-systems/choose-srs/">
+					Choosing an SRS
+				</a>
+			</li>
+		
+			<li class="  ">
+				<a href="/modules/spatial-reference-systems/module3-quiz/">
+					Quiz
+				</a>
+			</li>
+		
+			<li class="  ">
+				<a href="/modules/spatial-reference-systems/module3-assignment/">
+					Assignment
+				</a>
+			</li>
+		
+			<li class="  ">
+				<a href="/modules/spatial-reference-systems/module3-reflect/">
+					Reflection
+				</a>
+			</li>
+		
+			<li class="  ">
+				<a href="/modules/spatial-reference-systems/holding-page/">
+					Awaiting release
 				</a>
 			</li>
 		
 			<li class="  last">
-				<a
-						href="/modules/spatial-reference-systems/holding-page/">
-					Awaiting release
+				<a href="/modules/spatial-reference-systems/gps/">
+					GPS
 				</a>
 			</li>
 		
 	</ul>
 	
-		<hr />
+		<hr>
 		<div class="pagination-section">
 			<div class="title">
 				Next module:
@@ -166,7 +204,73 @@
 
 		<div class="col-xl-6 col-md-9 bg-white">
 			<div class="content p-md-2">
-				<iframe width="100%" height="1070" frameborder="0" src="https://observablehq.com/embed/@lucytallents/map-projections?cells=toEmbed"></iframe>
+				<h2 id="map-projection">Map <abbr>projection</abbr>
+</h2>
+
+<p>Here’s another phrase to add to our GIS vocabulary</p>
+
+<dl>
+  <dt>Map <abbr>projection</abbr>
+</dt>
+  <dd>A map <abbr>projection</abbr> is … Definition</dd>
+</dl>
+
+<h3 id="why-are-projections-necessary">Why are projections necessary?</h3>
+
+<p>Peel an orange or flatten a football</p>
+
+<p>Spheroid to flat - Geographic to projected <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr></p>
+
+<iframe width="100%" height="1070" frameborder="0" src="https://observablehq.com/embed/@lucytallents/map-projections?cells=toEmbed"></iframe>
+
+<h3 id="why-are-projections-useful">Why are projections useful?</h3>
+<p>Calculations in metres etc</p>
+
+<h3 id="projections-in-qgis">Projections in QGIS</h3>
+
+<p><abbr title="Spatial Reference System">SRS</abbr> is called a <abbr title="Coordinate Reference System">CRS</abbr> by QGIS.  We use the term <abbr title="Spatial Reference System">SRS</abbr> here to emphasise that the <abbr title="Spatial Reference System">SRS</abbr> includes information on the datum (see next page) as well as the map <abbr>projection</abbr></p>
+
+<h3 id="change-the-project-wide-crs-in-qgis">Change the project-wide <abbr title="Coordinate Reference System">CRS</abbr> in QGIS</h3>
+
+<!-- Here??! -->
+
+<h3 id="add-points-from-a-csv">Add points from a csv</h3>
+<p>Second survey by Binh, as a csv with EASE-Grid <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr></p>
+
+<p>The team leader of the gibbon surveys, Phuong, has received new data from her colleague Binh from a survey in the westernmost edge of the nature reserve.  Binh has provided data as a comma-delimited text file (a <em>.csv</em>) called <xx>.  Let's look at the raw data before we add it to our GIS project</xx></p>
+
+<blockquote>
+  <ol>
+    <li>Open up the .csv file in Excel or your text editor again</li>
+    <li>Examine the columns - compare them to the columns in <xxx></xxx>
+</li>
+    <li>Do you think the sighting locations are in Latitude-Longitude, or a different <abbr title="Spatial Reference System">SRS</abbr>?</li>
+  </ol>
+</blockquote>
+
+<p>You’re right!  <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20">  Binh’s observations were collected in a different <abbr title="Spatial Reference System">SRS</abbr>, known as xxx.</p>
+
+<p>Can you find out what EPSG code it has from xxx?<br>
+<!-- ^ Is this necessary? --></p>
+
+<p>Now we know a little more about the dataset, let’s add it to our growing QGIS project</p>
+
+<blockquote>
+  <ol>
+    <li>
+  </ol>
+</blockquote>
+
+<h3 id="calculate-geometry-attributes">Calculate geometry attributes</h3>
+
+<p>Optional exercise:</p>
+
+<p>Add geometry:</p>
+<ul>
+  <li>Area of Che Tao or RedList</li>
+  <li>Distance to sth on OSM e.g. central Che Tao village (extrac to separate geojson or only calculate from selected)</li>
+</ul>
+
 
 				
 
@@ -174,15 +278,15 @@
 
 
 
-				<hr />
+				<hr>
         <div class="row">
 					<div class="pagination-section col-sm-6">
 				
 						<div class="title">
 							Previous submodule:
 						</div>
-						<a rel="prev" class="prev" href="/modules/spatial-reference-systems/module3-intro/">
-							Module 3 introduction </a>
+						<a rel="prev" class="prev" href="/modules/spatial-reference-systems/coordinates/">
+							Coordinates </a>
 				
 					</div>
 				
@@ -190,7 +294,7 @@
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="/modules/spatial-reference-systems/survey-2/"> Survey 2
+						<a rel="next" class="next" href="/modules/spatial-reference-systems/datum/"> Geodetic datum
 						</a>
 					</div>
 				
@@ -211,15 +315,9 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   <script src="/js/init.js"></script>
   <script src="/js/gh_link_helper.js"></script>
 
