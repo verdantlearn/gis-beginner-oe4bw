@@ -3,6 +3,14 @@ title: Map projection
 published: false
 ---
 
+# Coordinate systems in GIS
+
+Interactive dataviz of what coordinates mean (spherical versus cartesian) - draggable globe with tooltip of coordinates in multiple SRSs, or later?
+
+### Cartesian coordinates
+
+
+
 ## Map projection
 
 Here's another phrase to add to our GIS vocabulary 

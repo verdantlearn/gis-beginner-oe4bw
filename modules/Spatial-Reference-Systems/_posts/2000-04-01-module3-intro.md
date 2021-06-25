@@ -12,6 +12,12 @@ Welcome to Module 3 of 'Introducing GIS for conservation'
 How do we know where we are?
 How do we communicate location precisely?
 
+<!-- This unit introduces you to the concept of spatial reference systems,
+which enable you to precisely state the location of features on the
+earth’s surface. There are a huge variety of spatial reference systems,
+and knowing which one each dataset was collected in is critical to
+overlaying data from different sources.  -->
+
 > What we'll build <NEEDS WORK!>
 
 ### Learning objectives
