@@ -27,7 +27,7 @@ Reply to one or more of the other learners' assignments - *this is your Peer fee
 <div id='discourse-comments'></div>
 
 <script type="text/javascript">
-  window.DiscourseEmbed = { discourseUrl: 'https://community.verdantlearn.org/', topicId: <replace me!> };
+  window.DiscourseEmbed = { discourseUrl: 'https://community.verdantlearn.org/', topicId: 722 };
 
   (function() {
     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
