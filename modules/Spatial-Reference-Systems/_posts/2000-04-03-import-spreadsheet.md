@@ -23,15 +23,16 @@ The Che Tao NR staff have provided us with a new dataset from their most recent 
 
 For those of you who are more confident with the basics of using QGIS, here are the steps without screenshots:
 > 1. `Layer > Add Layer > Add Delimited Text Layer...`
-1. Choose source file - click the `...` button
+1. Choose source file - click the `...` button and find *Threats_Evidence.csv*
 2. Ensure `Point coordinates` is selected under `Geometry Definition`
 3. QGIS should automatically recognise which columns contain the X (Longitude) and Y (Latitude) coordinates
 4. Click `Add` and `Close`
 
 <br>
 
-For those of you who want more detail or visual instructions, here are the steps including screenshots:  
-*Be aware that the csv file in these screenshots is different from yours*
+For those of you who want more detail or visual instructions, here are the steps including screenshots: 
+
+:warning: Be aware that the csv file in these screenshots is different from yours
 
 - `Layer > Add Layer > Add Delimited Text Layer...`
 
