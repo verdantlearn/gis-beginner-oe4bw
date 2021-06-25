@@ -20,6 +20,11 @@ Extent
 
 Contrast a global dataset (large extent) with data from a single survey location (small extent)
 
+### Contrasting spatial resolutions
+
+Move the slider across the images below to see how the resolution affects the complexity and precision of spatial data
+
+<iframe src="https://verdantlearn.h5p.com/content/1291357976659369267/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
 ### Spatial *and* temporal 
 
@@ -41,13 +46,19 @@ To help you understand these concepts, load the following new datasets to your Q
 1. Coarse-grained data from the *Digital Chart of the World* - select 'Vietnam' and the following two datasets from the [DivaGIS data download page](https://diva-gis.org/gdata):
    1. Roads (shapefile)
    2. Land cover (virtual raster): add using `Add Raster Layer...` or drag & drop the *.vrt* file into your QGIS map view
-2. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*
+2. <a href="{{site.baseurl}}/src/datasets/VNM_cov.qml" download>*VNM_cov.qml* QGIS style file</a> for the DCW landcover layer you just downloaded from DivaGIS - save it in the same folder as the *VNM_cov.vrt* and *VNM_cov.grd* files
+3. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*:
+   1. Click the green Download button
+   2. Select SHP, then Non-Commercial use
+   3. Unzip the downloaded file *WDPA_WDOECM_Jun2021_Public_555594126_shp.zip*
+   4. Alongside many other folders/files, you’ll now see *WDPA_WDOECM_Jun2021_Public_555594126_shp**_0**.zip*. Unzip this second *.zip* file to extract the contents
+   5. You can now add the *.shp* to your QGIS project
 
 <br>
 
 > 1. Compare the visual detail of the **roads** from OSM and DCW
 2. Compare the fine-grain Che Tao **Nature Reserve boundaries** from Protected Planet with the corresponding polygon in the IUCN Redlist's *NomascusConcolor_Distribution* layer
-3. Compare the two **landcover** raster layers from Copernicus and DCW
+3. Compare the two **landcover** raster layers from Copernicus and DCW - consider both their spatial resolution, and how well their landcover classes (thematic values) overlap with each other
 
 
 <!-- 2. Natural Earth -->

@@ -1,14 +1,31 @@
 ---
 title: Gibbon datasets
-published: false
 ---
 
 # Datasets for the gibbon case study
 
 If you don't have field data of your own to work with, you can use our example dataset on black crested gibbon surveys.  These datasets can also be downloaded from the course pages where they first appear, but we've gathered them together here for your convenience
 
-Clicking on the links below should open a 'Download' pop-up in your browser, asking you where to save the file
-- <a href="{{site.baseurl}}/src/datasets/GibbonSightings_Survey1.geojson" download>GibbonSightings_Survey1.geojson</a>
-- <a href="{{site.baseurl}}/src/datasets/NomascusConcolor_Distribution.zip" download>NomascusConcolor_Distribution.zip</a>
-- <a href="{{site.baseurl}}/src/datasets/LandCover.tif" download>LandCover.tif</a>
-- <a href="{{site.baseurl}}/src/datasets/LandCover.qml" download>LandCover.qml</a>
+Clicking on the links to *.zip* files should open a 'Download' pop-up in your browser, asking you where to save the file.  Other links take you to websites where you download data directly
+
+## Module 1
+
+1. <a href="{{site.baseurl}}/src/datasets/IntroGIS_Module1.zip" download>IntroGIS_Module1.zip</a>, containing:
+   1. GibbonSightings_Survey1
+   2. NomascusConcolor_Distribution
+   3. Landcover
+
+## Module 2
+
+1. <a href="{{site.baseurl}}/src/datasets/IntroGIS_Module2.zip" download>IntroGIS_Module2.zip</a>, containing:
+   1. OpenStreetMap_CheTao.osm
+   2. VNM_Cover.qml - QGIS style file to improve symbology of the coarse grain Landcover layer from DivaGIS  
+2. [DivaGIS data downloads](https://diva-gis.org/gdata): Roads (shapefile) and Land cover (virtual raster) for Vietnam
+3. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*:
+   1. Click the green Download button
+   2. Select SHP, then Non-Commercial use
+   3. Unzip the downloaded file *WDPA_WDOECM_Jun2021_Public_555594126_shp.zip*
+   4. Alongside many other folders/files, you’ll now see *WDPA_WDOECM_Jun2021_Public_555594126_shp**_0**.zip*. Unzip this second *.zip* file to extract the contents
+   5. You can now add the *.shp* to your QGIS project
+
+

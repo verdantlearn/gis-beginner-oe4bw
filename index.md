@@ -4,6 +4,7 @@ layout: index
 
 > Welcome to this short beginner course on GIS for wildlife conservationists!
 
+This course was created as Lucy Tallents' commitment to [Open Education for a Better World](https://oe4bw.org) 2021
 
 The course will run from **Monday 14 June to Sunday 11 July 2021**
 
