@@ -10,7 +10,9 @@ Let's work with an example of Latitude-Longitude coordinates, to learn how to im
 The Che Tao NR staff have provided us with a new dataset from their most recent patrol, looking for evidence of **threats to wildlife**
 
 ### *.csv* file format
-*Threats_Evidence.csv* is in *.csv* format, or *comma-delimited*, with columns separated by a comma.  *.csv* is a non-spatial file format, although as you'll see, it does contain spatial information.  To add this new layer to your GIS project, you'll need to use a new method.  QGIS won't automatically know where to draw data in *.csv* format, so we have to tell it where the location coordinates are stored.  Before we do that, let's take a look at the raw data
+*Threats_Evidence.csv* is in *.csv* format, or *comma-delimited*, with columns separated by a comma.  *.csv* is a non-spatial file format, although as you'll see, it does contain spatial information
+
+To add this new layer to your GIS project, you'll need to use a new method.  QGIS won't automatically know where to draw data in *.csv* format, so we have to tell it where the location coordinates are stored.  Before we do that, let's take a look at the raw data
 
 > 1. Download <a href="{{site.baseurl}}/src/datasets/Threats_Evidence.csv" download>Threats_Evidence.csv</a>
 1. Open up the .csv file in Excel (or a text editor if you prefer)

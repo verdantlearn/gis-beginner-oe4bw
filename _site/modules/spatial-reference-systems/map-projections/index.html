@@ -149,7 +149,7 @@
 		
 			<li class="  ">
 				<a href="/modules/spatial-reference-systems/datums/">
-					Geodetic datum
+					Geodetic datums
 				</a>
 			</li>
 		
@@ -224,7 +224,7 @@
 			<div class="content p-md-2">
 				<h2 id="map-projections">Map projections</h2>
 
-<p>We can record locations out in the field using Latitude-Longitude, but it’s not possible to use angular <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr> to draw geospatial features on a flat map or screen.  For this, we need to use <strong>Cartesian <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr></strong>, plus a <strong><abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr></strong> to convert between the angular and Cartesian <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr>.  Together, these form a <strong>projected <abbr title="Spatial Reference System">SRS</abbr></strong></p>
+<p>We can record locations out in the field using Latitude-Longitude, but it’s not possible to use angular <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr> to draw geospatial features on a <strong>flat map or screen</strong>.  For this, we need to use <em>Cartesian <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr></em>, plus a <em><abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr></em> to convert between the angular and Cartesian <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr>.  Together, these form a <strong>projected <abbr title="Spatial Reference System">SRS</abbr></strong></p>
 
 <p>Some more phrases to add to our GIS vocabulary:</p>
 
@@ -234,12 +234,12 @@
   <dd>Coordinates on a flat plane with the X and Y axes at 90°.  For most map projections, these <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr> will be measured in metres from a 0,0 reference point where the X and Y axes intersect.  The real-world location of the 0,0 point depends on the <abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr>
 </dd>
   <dt>Map projection</dt>
-  <dd>A <abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr> is a mathematical formula to convert between coordinate systems.  It is used to draw features on the curved surface of the earth on a flat piece of paper or screen, whilst maintaining accurate spatial releationships between those real-world features</dd>
+  <dd>A <abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr> is a mathematical formula to convert between coordinate systems.  It is used to draw features on the curved surface of the earth <img class="emoji" title=":earth_asia:" alt=":earth_asia:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f30f.png" height="20" width="20"> on a flat piece of paper or screen <img class="emoji" title=":world_map:" alt=":world_map:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f5fa.png" height="20" width="20"> whilst maintaining accurate spatial releationships between those real-world features</dd>
 </dl>
 
 <p>Imagine that the earth is a football <img class="emoji" title=":soccer:" alt=":soccer:" src="https://github.githubassets.com/images/icons/emoji/unicode/26bd.png" height="20" width="20">  You want to lay the surface of the football flat, but the only way to do this is to tear it into pieces, and then ideally stretch some areas and squash others so that the fabric lies flat.  This would, of course, break up or distort any pictures drawn on the surface of the football.  Likewise, all map projections introduce some degree of distortion - this is inevitable</p>
 
-<p>To help you picture how a <abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr> works, imagine that there is a light bulb <img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> at the centre of the earth.  When we hold a piece of paper against the earth’s surface, our flat map is formed by the shadows cast onto the paper.  We could hold the paper flat, just touching the earth at a single point (azimuthal projection), causing greater distortion the further we move from the place where the paper touches the earth.  Or we could wrap it around the globe in a cone (conic projection) or cylinder (cylindrical projection):</p>
+<p>To help you picture how a <abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr> works, imagine that there is a light bulb <img class="emoji" title=":bulb:" alt=":bulb:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4a1.png" height="20" width="20"> at the centre of the earth.  When we hold a piece of paper against the earth’s surface, our flat map is formed by the shadows cast onto the paper.  We can hold the paper flat, just touching the earth at a tangent (azimuthal projection), causing greater distortion the further we move from the place where the paper touches the earth.  Or we can wrap the paper around the globe in a cone (conic projection) or cylinder (cylindrical projection) to draw on the earth’s surface, before unrolling the paper to flat:</p>
 
 <center><a title="Types of map projection, by cmglee, US government, Clindberg, Palosirkka, CC BY-SA 4.0, via Wikimedia Commons"><img width="400" alt="Types of map projection" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Comparison_of_cartography_surface_development.svg/512px-Comparison_of_cartography_surface_development.svg.png"></a></center>
 
@@ -247,8 +247,7 @@
 
 <p>Remember that you can always look up these technical terms for a different way of explaining them, or more detail</p>
 <ul>
-  <li>
-<a href="http://www.wiki.gis.com/wiki/index.php/GIS_Glossary">Wiki GIS glossary</a>,</li>
+  <li><a href="http://www.wiki.gis.com/wiki/index.php/GIS_Glossary">Wiki GIS glossary</a></li>
   <li><a href="http://support.esri.com/en/knowledgebase/Gisdictionary/search">ESRI GIS dictionary</a></li>
 </ul>
 
@@ -262,23 +261,24 @@
 
 <h3 id="change-the-project-wide-crs-in-qgis">Change the project-wide <abbr title="Coordinate Reference System">CRS</abbr> in QGIS</h3>
 
-<p>We use the term <abbr title="Spatial Reference System">SRS</abbr> to emphasise that need for information on the datum as well as the <abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr>.  However, QGIS uses the term <abbr title="Coordinate Reference System">CRS</abbr>, or Coordinate Reference System.</p>
+<p>We use the term <abbr title="Spatial Reference System">SRS</abbr> to emphasise the need for information on the <abbr title="reference frame for horizontal or vertical coordinates">datum</abbr> (see next page) as well as the <abbr title="method to draw the earth's curved surface onto a flat map">map projection</abbr>.  However, QGIS uses the term <abbr title="Coordinate Reference System">CRS</abbr>, or Coordinate Reference System</p>
 
-<p>Up until now, we’ve been using Latitude-Longitude (EPSG code 4326) as our project-wide <abbr title="Coordinate Reference System">CRS</abbr>, but it’s possible to change the project-wide <abbr title="Coordinate Reference System">CRS</abbr>.  Let’s switch to using a projected <abbr title="Spatial Reference System">SRS</abbr>, specifically <em>Pseudo-Mercator</em> (EPSG code 3857), as used by OpenStreetMap, Google maps, Bing etc</p>
+<p>Up until now, we’ve been using Latitude-Longitude (EPSG code 4326) as our project-wide <abbr title="Coordinate Reference System">CRS</abbr>, but it’s possible to change this.  Let’s switch to a <strong>projected <abbr title="Spatial Reference System">SRS</abbr></strong>, specifically <em>Pseudo-Mercator</em> (EPSG code 3857), as used by OpenStreetMap, Google maps, Bing etc</p>
 
-<p><img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"> Be aware that you should always choose a <abbr title="Coordinate Reference System">CRS</abbr> that is appropriate to the location and extent of your datasets, i.e. a global <abbr title="Coordinate Reference System">CRS</abbr> for a global dataset, or you may get unexpected behaviour or cause QGIS to crash!  Changing the project-wide <abbr title="Coordinate Reference System">CRS</abbr> may also affect QGIS’ ability to draw our OpenStreetMap basemap</p>
+<p><img class="emoji" title=":warning:" alt=":warning:" src="https://github.githubassets.com/images/icons/emoji/unicode/26a0.png" height="20" width="20"> Be aware that you should always choose a project <abbr title="Coordinate Reference System">CRS</abbr> that is appropriate to the location and extent of your datasets, i.e. a global <abbr title="Coordinate Reference System">CRS</abbr> for a global dataset, or you may get unexpected behaviour or cause QGIS to crash!  Changing to a local/national <abbr title="Coordinate Reference System">CRS</abbr> may also affect QGIS’ ability to draw the OpenStreetMap basemap</p>
 
 <blockquote>
   <ol>
     <li>Click on the <code class="language-plaintext highlighter-rouge">Project CRS</code> button in the bottom right of the QGIS window - refer to the QGIS Desktop page in the Introduction module if you can’t remember where this is</li>
-    <li>When the <code class="language-plaintext highlighter-rouge">Project Properties - CRS</code> window opens, type <em>pseudo</em> into the search box at the top, and select <em>WGS 84 / Pseudo Mercator</em> in the <code class="language-plaintext highlighter-rouge">Predefined Coordinate Reference Systems</code> box in the centre</li>
+    <li>When the <code class="language-plaintext highlighter-rouge">Project Properties - CRS</code> window opens, type <em>pseudo</em> into the search box at the top, and select <em>WGS 84 / Pseudo Mercator</em> in the <code class="language-plaintext highlighter-rouge">Predefined Coordinate Reference Systems</code> box in the centre (see screenshot below)</li>
+    <li>Click <code class="language-plaintext highlighter-rouge">OK</code> and note how the EPSG code to the bottom right has changed from 4326 to 3857</li>
+    <li>Move your mouse over the map, and see how the <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr> in the <code class="language-plaintext highlighter-rouge">Mouse coordinates</code> area of the QGIS window (bottom centre) are now much larger numbers</li>
   </ol>
 </blockquote>
-<center><a title=""><img alt="Types of map projection" src="/src/img/QGIS_ProjectProperties_CRS.png"></a></center>
-<ol>
-  <li>Click <code class="language-plaintext highlighter-rouge">OK</code> and note how the EPSG code to the bottom right has changed from 4326 to 3857</li>
-  <li>Move your mouse over the map, and see how the <abbr title="pair of numbers indicating distance along x and y axes">coordinates</abbr> in the <code class="language-plaintext highlighter-rouge">Mouse coordinates</code> area of the QGIS window (bottom centre) are now much larger numbers</li>
-</ol>
+
+<p><br></p>
+
+<center><a title="Types of map projection"><img alt="Types of map projection" src="/src/img/QGIS_ProjectProperties_CRS.png"></a></center>
 
 <!-- Interactive dataviz of what coordinates mean (spherical versus cartesian) - draggable globe with tooltip of coordinates in multiple SRSs, or later? -->
 
@@ -308,7 +308,7 @@
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="/modules/spatial-reference-systems/datums/"> Geodetic datum
+						<a rel="next" class="next" href="/modules/spatial-reference-systems/datums/"> Geodetic datums
 						</a>
 					</div>
 				
