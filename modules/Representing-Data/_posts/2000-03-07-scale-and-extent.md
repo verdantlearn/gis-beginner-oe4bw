@@ -47,7 +47,12 @@ To help you understand these concepts, load the following new datasets to your Q
    1. Roads (shapefile)
    2. Land cover (virtual raster): add using `Add Raster Layer...` or drag & drop the *.vrt* file into your QGIS map view
 2. <a href="{{site.baseurl}}/src/datasets/VNM_cov.qml" download>*VNM_cov.qml* QGIS style file</a> for the DCW landcover layer you just downloaded from DivaGIS - save it in the same folder as the *VNM_cov.vrt* and *VNM_cov.grd* files
-3. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*
+3. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*:
+   1. Click the green Download button
+   2. Select SHP, then Non-Commercial use
+   3. Unzip the downloaded file *WDPA_WDOECM_Jun2021_Public_555594126_shp.zip*
+   4. Alongside many other folders/files, you’ll now see *WDPA_WDOECM_Jun2021_Public_555594126_shp**_0**.zip*. Unzip this second *.zip* file to extract the contents
+   5. You can now add the *.shp* to your QGIS project
 
 <br>
 

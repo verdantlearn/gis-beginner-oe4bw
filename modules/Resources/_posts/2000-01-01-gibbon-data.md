@@ -21,5 +21,11 @@ Clicking on the links to *.zip* files should open a 'Download' pop-up in your br
    1. OpenStreetMap_CheTao.osm
    2. VNM_Cover.qml - QGIS style file to improve symbology of the coarse grain Landcover layer from DivaGIS  
 2. [DivaGIS data downloads](https://diva-gis.org/gdata): Roads (shapefile) and Land cover (virtual raster) for Vietnam
-3. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*
+3. [Chế Tạo Nature Reserve boundary](https://www.protectedplanet.net/555594126) from *Protected Planet*:
+   1. Click the green Download button
+   2. Select SHP, then Non-Commercial use
+   3. Unzip the downloaded file *WDPA_WDOECM_Jun2021_Public_555594126_shp.zip*
+   4. Alongside many other folders/files, you’ll now see *WDPA_WDOECM_Jun2021_Public_555594126_shp**_0**.zip*. Unzip this second *.zip* file to extract the contents
+   5. You can now add the *.shp* to your QGIS project
+
 
