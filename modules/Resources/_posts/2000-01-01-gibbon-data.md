@@ -11,9 +11,9 @@ Clicking on the links to *.zip* files should open a 'Download' pop-up in your br
 ## Module 1
 
 1. <a href="{{site.baseurl}}/src/datasets/IntroGIS_Module1.zip" download>IntroGIS_Module1.zip</a>, containing:
-   1. GibbonSightings_Survey1
-   2. NomascusConcolor_Distribution
-   3. Landcover
+   1. GibbonSightings_Survey1.geojson
+   2. NomascusConcolor_Distribution.shp
+   3. Landcover.tif
 
 ## Module 2
 
@@ -27,5 +27,11 @@ Clicking on the links to *.zip* files should open a 'Download' pop-up in your br
    3. Unzip the downloaded file *WDPA_WDOECM_Jun2021_Public_555594126_shp.zip*
    4. Alongside many other folders/files, you’ll now see *WDPA_WDOECM_Jun2021_Public_555594126_shp**_0**.zip*. Unzip this second *.zip* file to extract the contents
    5. You can now add the *.shp* to your QGIS project
+
+## Module 3
+
+1. <a href="{{site.baseurl}}/src/datasets/IntroGIS_Module3.zip" download>IntroGIS_Module3.zip</a>, containing:
+   1. GibbonSightings_Survey2.csv
+   2. Threats_Evidence.csv
 
 
