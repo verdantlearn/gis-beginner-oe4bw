@@ -10,3 +10,12 @@ Welcome to Module 4 of 'Introducing GIS for conservation'
 
 ### Learning objectives
 By the end of this module, you will be able to:
+
+
+
+
+<!-- labels?
+
+- [ ] Adjust the transparency of layers
+- [ ] Copy and paste layer styles e.g. symbology
+ -->
