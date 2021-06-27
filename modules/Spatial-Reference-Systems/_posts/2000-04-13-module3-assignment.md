@@ -16,7 +16,7 @@ You need to submit *every* assignment to qualify for a certificate of completion
 3. If you encountered any problems doing the exercises, you can include how you solved them - this is optional but also encourages you to spend time on *Reflection*.  If you're still stuck, seek help in the community forum - see the *Getting help* page in Preparation above!
 
 ### Submit your assignment
-To submit your assignment, reply to the *Module 2 assignment* topic in our community forum - see below
+To submit your assignment, reply to the *Module 3 assignment* topic in our community forum - see below
 
 ### Offer feedback to peers
 Reply to one or more of the other learners' assignments - *this is your Peer feedback* :speech_balloon:  Your reply should include three elements:
