@@ -1,6 +1,5 @@
 ---
 title: Reprojecting
-published: false
 ---
 
 ## Reprojecting: Converting to a different SRS
@@ -15,26 +14,26 @@ The advantages of reprojecting your datasets are:
 2. **Combining** data - if you wish to merge multiple datasets into a single geospatial file, e.g. field observations from repeated surveys, every dataset needs to use the same SRS 
 3. **Analysis** - once your data are in a projected SRS, where the *unit of measurement is metres*, you can calculate meaningful distances and areas.  Many QGIS analysis tools will not work, or will give you a warning :warning: if you attempt to apply them to geospatial datasets that use angular coordinates
 
-### Reproject sightings from 1st survey
+### Reproject gibbon sightings
 
-Phuong has asked you to combine the sightings from the two gibbon surveys into a single dataset, for further analysis and map-making.  A necessary preparatory step is to reproject one of the files into the same SRS as the other, before merging them together.  We recommend reprojecting *GibbonSightings_Survey**1**.geojson* into the projected SRS *NSIDC EASE-Grid Global*, EPSG code *3410*.
+Phuong has asked you to **combine the gibbon sightings** from the two gibbon surveys into a single dataset, for further analysis and map-making.  A preparatory step is to reproject one of the files into the same SRS as the other, before merging them together[^1].  We recommend reprojecting *GibbonSightings_Survey**1**.geojson* from Latitude-Longitude into the projected SRS *NSIDC EASE-Grid Global*, EPSG code *3410*.
+
 
 > 1. Go to the `Processing` menu > `Toolbox`
-2. Type *reproject* into the search bar of the Processing toolbox and double-click on `Reproject layer`
-3. In the `Reproject Layer` pop-up window, select *GibbonSightings_Survey**1**.geojson* as your `Input layer`
-4. Select *EPSG:3410 - NSIDC EASE-Grid Global* as the `Target CRS`
-5. Click `Run`.  This will create a temporary layer called *Reprojected*
-6. Close the `Reproject Layer` pop-up window
-7. Right-click on *Reprojected* in the Layers panel > `Export > Save Features As...`
-8. Save your file as a *.geojson*, including the EPSG code in the name so you can easily identify it as the reprojected layer
+1. Type *reproject* into the search bar of the Processing toolbox and double-click on `Reproject layer`
+2. In the `Reproject Layer` pop-up window, under `Input layer`, select *GibbonSightings_Survey**1**.geojson*
+3. Under `Target CRS`, search for and select *EPSG:3410 - NSIDC EASE-Grid Global*
+4. Under `Reprojected`, click on the `...` button and select `Save to File...`
+5. Specify a name for your new *.geojson*, including the EPSG code in the name so you can easily identify it as the reprojected layer
+6. Click `Run` and close the `Reproject Layer` window
 
 
 ### Save .csv as .geojson
 
-Before we can merge the two sources of survey data, we also need to convert the sightings from our *second* survey from *.csv* into a spatial data format (*.geojson* again)
+Before we can merge the two sources of survey data, we will convert the sightings from our *second* survey into a spatial data format[^2]
 
 > 1. Right-click on *GibbonSightings_Survey**2**.csv* in the Layers panel > `Export > Save Features As...`
-1. Under 'Select fields to export and their export options`, uncheck the columns *X* and *Y* - we don't need these columns any more, and excluding them from our new file means we will have identical columns in the attributes table of both Sightings layers, which will make merging the two files easier 
+1. Under 'Select fields to export and their export options`, uncheck the columns *X* and *Y*.  We don't need these columns any more, and excluding them from our new file means we will have identical columns in the Attribute table of both Sightings layers, which will simplify the output Attribute table 
 2. Save your file as a *.geojson*, again including the EPSG code in the name
 
 
@@ -42,13 +41,13 @@ Before we can merge the two sources of survey data, we also need to convert the 
 We are finally ready to merge our two layers!
 
 > 1. Open `Processing > Toolbox` again if it's not already open and search for *merge*
-3. Open `Merge vector layers` under the `Vector general` category
-4. On the `Merge Vector Layers` pop-up window, click the `...` button to the right of the `Input layers` box
-5. Select your two survey datasets which use EPSG:3410 and click `OK`
-6. Under `Merged`, click on the `...` button and select `Save to File...`
-7. Specify a name for your new merged file, e.g. *GibbonSightings_Merged.geojson*
-8. Click `Run` and close the `Merge Vector Layers` window
-9. Open your new layer's Attributes table and check it contains 88 features, including sightings made by Binh
+1. Open `Merge vector layers`
+2. On the `Merge Vector Layers` pop-up window, click the `...` button to the right of the `Input layers` box
+3. Select your two survey datasets which use EPSG:3410 and click `OK`
+4. Under `Merged`, click on the `...` button and select `Save to File...`
+5. Specify a name for your new merged file, e.g. *GibbonSightings_Merged.geojson*
+6. Click `Run` and close the `Merge Vector Layers` window
+7. Open your new layer's Attribute table and check it contains 88 features, including sightings made by Binh
 
 
 <!-- ### Final QGIS exercise
@@ -57,5 +56,9 @@ Are your layers all correctly aligned? -->
 <!-- ### Optional
 Identify and fix SRS errors in provided dataset e.g. wrong CRS applied -->
 
+<br>
+
+[^1]: In fact, the `Merge Vector Layers` tool can reproject and merge in a single step, but it's useful to know how to reproject so we'll do this preparatory step manually
+[^2]: The `Merge Vector Layers` tool can cope with .csv as input, but making these separate steps explicit gives you more insight into the full process of merging geospatial datasets
 
 *[SRS]: Spatial Reference System
