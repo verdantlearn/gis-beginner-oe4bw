@@ -1,5 +1,5 @@
 ---
-title: Metadata - Legend
+title: Map legend
 published: false
 ---
 
