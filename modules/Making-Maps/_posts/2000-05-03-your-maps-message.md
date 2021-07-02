@@ -31,7 +31,7 @@ Read through some of the other posts:
 <div id='discourse-comments'></div>
 
 <script type="text/javascript">
-  window.DiscourseEmbed = { discourseUrl: 'https://community.verdantlearn.org/', topicId: 890 };
+  window.DiscourseEmbed = { discourseUrl: 'https://community.verdantlearn.org/', topicId: 809 };
 
   (function() {
     var d = document.createElement('script'); d.type = 'text/javascript'; d.async = true;
