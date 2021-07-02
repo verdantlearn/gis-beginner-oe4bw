@@ -3,14 +3,17 @@ title: Symbolise attributes
 published: false
 ---
 
-
 ## Symbolise layers by attributes
 
-So far we've ignored information in the attributes table of vector layers, and used identical symbology for all features in a layer.  Now it's time to explore a powerful visualisation option in QGIS :muscle: - the ability to symbolise vector features depending on properties in their attributes table
+Before we actually make our map, let's equip ourselves with some extra skills for symbolising layers
 
-For all of these instructions you need to have the `Layer Properties` window open on the `Symbology` tab
+So far we've ignored information in the attributes table of vector layers, and used identical symbology for all features in a layer.  Now it's time to explore a powerful visualisation option in QGIS :muscle: - the ability to **symbolise features by attributes**.  For vector layers, symbols are drawn according to properties (columns) in their attributes table.  For raster layers, symbols depend on the value within each grid cell
 
-### Visualise categorical attributes
+:information_source: For all of these instructions you need to have the `Layer Properties` window open on the `Symbology` tab
+
+:warning: Be aware that the layers in the screenshots below are different from those in our gibbon case study
+
+### Visualise *categorical* attributes
 
 For **vector** layers :diamond_shape_with_a_dot_inside:
 
@@ -19,14 +22,17 @@ For **vector** layers :diamond_shape_with_a_dot_inside:
 2. Click on the `Classify` button in the bottom left
 3. Click `Apply` and `OK` to finish
 
+<center><img src="{{site.baseurl}}/src/img/qgis-symbol-cat-062.png" alt="QGIS screenshot: Categorized vector symbols"></center>
+
+
 <br>
 
 For *thematic* **raster** layers :black_square_button:
 
 > 1. Ensure `Render type` is *Paletted/Unique values*
-2. Double click on the `Color` or `Label` to manually edit the colour or label of each pixel value in your 
+1. Double click on the `Color` or `Label` to manually edit the colour or label of each pixel value in your 
 
-### Visualise continuous attributes
+### Visualise *continuous* attributes
 
 For **vector** layers :diamond_shape_with_a_dot_inside:
 
@@ -35,6 +41,7 @@ For **vector** layers :diamond_shape_with_a_dot_inside:
 2. Click on the `Classify` button in the bottom left
 3. Click `Apply` and `OK` to finish
 
+<center><img src="{{site.baseurl}}/src/img/qgis-symbol-num-058.png" alt="QGIS screenshot: Graduated vector symbols"></center>
 
 <br>
 
@@ -63,6 +70,9 @@ For **raster** layers :black_square_button:
 
 > 1. Switch to the `Transparency` tab
 2. Adjust `Global opacity` to below 100% (e.g. 60%) and click `Apply` to see the result
+
+
+
 
 
 *[DEM]: Digital Elevation Model

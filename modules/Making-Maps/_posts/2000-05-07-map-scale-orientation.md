@@ -9,7 +9,7 @@ To help your readers understand the *real-world size* of features on your map, a
 
 By the end of this exercise, your map will look something like this:
 
-<center><img src="{{site.baseurl}}/src/img/Map_Stage3_ScaleBar.png" alt="Map with scale bar and north arrow added"></center>
+<center><img style="border: 1px solid" src="{{site.baseurl}}/src/img/Map_Stage3_ScaleBar.png" alt="Map with scale bar and north arrow added"></center>
 
 ### Add a scale bar
 

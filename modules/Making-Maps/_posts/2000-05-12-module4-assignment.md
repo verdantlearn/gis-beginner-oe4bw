@@ -11,7 +11,7 @@ Your final assignment for this course!  It's a little different from the previou
 
 ### Prepare your assignment
 
-1. Save your final **QGIS map** as an image file - *this is your Evidence* :information_source:  You can use your own field data, or choose whichever of the case study datasets you wish to show.  
+1. Save your final **QGIS map** as an image file - *this is your Evidence* :information_source:  You can use your own field data, or choose whichever of the gibbon case study datasets you wish to show
 2. Write a paragraph stating the **message** of your assignment map, and briefly describing how this module's activities have contributed to progress towards your learning goal - *this is your Reflection* for this week :thought_balloon:
 
 ### Submit your assignment

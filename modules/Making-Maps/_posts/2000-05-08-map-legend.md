@@ -9,17 +9,9 @@ published: false
 Legend
 : A **legend** explains the symbology used for each of your map layers, so that readers can interpret what the symbols on your map mean, and understand your message
 
-All the symbology used on your map needs to be explained, so that
-readers can understand your map, and ultimately, your message.  This
-means that you need to include a legend, which shows the type, colour,
-shading and weight of symbols, as well as the names of the layers.  You
-also need to include information on the source of your data, to help
-readers assess their relevance, validity and reliability.
-
-
 By the end of this exercise, your map will look something like this:
 
-<center><img src="{{site.baseurl}}/src/img/Map_Stage4_Legend.png" alt="Map with legend added"></center>
+<center><img style="border: 1px solid" src="{{site.baseurl}}/src/img/Map_Stage4_Legend.png" alt="Map with legend added"></center>
 
 <br>
 

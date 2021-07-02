@@ -2,9 +2,9 @@
 title: Reflection 
 ---
 
-> Congratulations!  You've 
-> 
-> :fireworks:
+Congratulations!  You've learned enough about QGIS over the last four modules to create and style your own map!  Fabulous work :fireworks:
+
+Before you submit your final assignment, reflect on where you are in your GIS learning journey 
 
 ## Reflect on your progress
 

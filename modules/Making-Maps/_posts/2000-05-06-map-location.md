@@ -15,7 +15,7 @@ Gridlines or tickmarks (crosses that show where x and y gridlines intersect) sho
 
 By the end of this exercise, your map will look something like this:
 
-<center><img src="{{site.baseurl}}/src/img/Map_Stage2_Grid.png" alt="Map with grid and inset map added"></center>
+<center><img style="border: 1px solid" src="{{site.baseurl}}/src/img/Map_Stage2_Grid.png" alt="Map with grid and inset map added"></center>
 
 ### Add a grid
 
@@ -28,7 +28,7 @@ By the end of this exercise, your map will look something like this:
    2. Select the `CRS` - it's a good idea as a beginner to explicitly select the SRS you want to use for your grid, to help solidify your understanding of the practical consequences of your choice of SRS when preparing maps.  In our example, we use Latitude-Longitude (*EPSG:4326 - WGS84*)
    3. Enter a suitable `Interval` for your gridlines or tickmarks.  For a map showing the entire Che Tao Nature Reserve, using a Latitude-Longitude grid, we suggest intervals of *0.05* or *0.075* (this is in degrees).  If you're working with a projected SRS then your intervals will be in the 1000s (km), 10,000s (10km) or even 100,000s (100km) for maps with very large geographic extents :warning: Setting grid intervals is the most likely point you'll make an error which could delay your progress.  Setting an interval in the wrong units of measurement, such as 0.05m when you thought you were working in degrees, forces QGIS to attempt to draw thousands of gridlines across your map, and it will probably crash!  This is why we suggest saving your project before adding a grid
    4. Select a `Frame style` - we suggest *Interior ticks*.  :information_source: Combining these with the map frame you added on the previous page gives you the most flexibility in how your grid appears 
-   5. Tick the checkbox beside `Draw Coordinates` and decide on which sides of your frame you want them drawn 
+   5. Tick the checkbox beside `Draw Coordinates`.  Choose a format (we suggest *Decimal with Suffix* for Latitude-Longitude) and decide on which sides of your frame you want them drawn 
 
 :bulb: The best way to understand these detailed settings, and the impact of your choices, is to experiment with different settings until you find a design that you like.  Play with the `Frame` and `Draw Coordinates` settings.  If you want a real challenge to test your understanding, add a second grid so that you have one for your chosed projected SRS, and one for Latitude-Longitude
 
