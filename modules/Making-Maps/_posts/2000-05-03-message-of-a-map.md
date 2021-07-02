@@ -5,6 +5,8 @@ published: false
 
 ## Communicate a message with your map
 
+You may want to sketch your proposed map on paper first, to help you visualise what features you need to include
+
 What is your message?
 
 Share in the forum
