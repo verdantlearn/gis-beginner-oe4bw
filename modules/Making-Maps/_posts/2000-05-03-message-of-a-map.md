@@ -1,6 +1,5 @@
 ---
 title: Message of a map
-published: false
 ---
 
 ## What's your message?
