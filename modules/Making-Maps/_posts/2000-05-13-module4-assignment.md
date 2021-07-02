@@ -4,7 +4,7 @@ title: Assignment
 
 ## Module 4 assignment
 
-You need to submit *every* assignment to qualify for a certificate of completion.  Each assignment includes three parts:
+Your final assignment for this course!  It's a little different from the previous ones, as you'll submit your final map instead of a screenshot.  This assignment includes the usual three parts:
 1. **Evidence** :information_source: - A screenshot of QGIS showing your progress
 2. **Reflection** :thought_balloon: - A paragraph describing your experience of the learning activities on this module
 3. **Peer feedback** :speech_balloon: - A comment on someone else's assignment

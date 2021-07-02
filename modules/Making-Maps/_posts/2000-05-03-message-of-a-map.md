@@ -11,6 +11,9 @@ What is your message?
 
 Share in the forum
 
+
+
+
 <div id='discourse-comments'></div>
 
 <script type="text/javascript">
