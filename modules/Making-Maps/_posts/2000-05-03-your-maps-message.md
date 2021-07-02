@@ -1,5 +1,5 @@
 ---
-title: Message of a map
+title: "Your map's message"
 ---
 
 ## What's your message?
