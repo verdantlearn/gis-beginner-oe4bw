@@ -18,6 +18,3 @@ On the [community forum](https://community.verdantlearn.org), you can obtain lin
 <br>
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrO7Lmn2bL5JLjih?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
-
-
-<iframe class="airtable-embed" src="https://airtable.com/embed/shrtdQ8pg0IA4ZmQr?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
