@@ -12,9 +12,12 @@ You can earn a **certificate of completion** for this course by submitting assig
 
 To make it easy for us to find your contributions and assess your work, please provide the **links** to your relevant community forum posts in the form below
 
-On the community forum, you can obtain links to your posts by clicking on the link button below a post:
+On the [community forum](https://community.verdantlearn.org), you can obtain links to your posts by clicking on the link button below a post:
 <center><img src="{{site.baseurl}}/src/img/Discourse_ShareLinkToPost.png" alt="Discourse - Share link to profile"></center>
 
 <br>
 
 <iframe class="airtable-embed" src="https://airtable.com/embed/shrO7Lmn2bL5JLjih?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+
+
+<iframe class="airtable-embed" src="https://airtable.com/embed/shrtdQ8pg0IA4ZmQr?backgroundColor=orange" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
