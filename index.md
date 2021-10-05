@@ -32,4 +32,10 @@ This course is authored and taught by ***Dr Lucy Tallents***, director of **Verd
 
 * Join our [mailing list](https://verdantlearn-courses.webflow.io/maillist) to receive alerts about our upcoming learning opportunities :heart:
 
+---
+
+The learning content on this site is released under a Creative Commons Attribution ShareAlike (**CC BY-SA** 4.0) licence.  If you re-use any of the learning materials, you must attribute them as below.  If you adapt them, you must release your adaptations under the same CC BY-SA licence
+
+Please attribute as:
+> [Introducing GIS for conservation](https://courses.verdantlearn.org/gis-beginner-oe4bw/) by [Lucy Tallents](https://www.lucytallents.com) of [VerdantLearn](http://www.verdantlearn.com) is licenced under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 
