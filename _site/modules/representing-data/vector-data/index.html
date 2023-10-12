@@ -31,6 +31,9 @@
   <link rel="shortcut icon" href="/src/img/favicon.ico">
   <script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
   
+  <!-- H5P standalone player -->
+  <script type="text/javascript" src="/src/h5p/standAlonePlayer/main.bundle.js"></script>
+
   <script src="https://cdn.usefathom.com/script.js" data-site="IIBCQDNI" data-spa="auto" defer></script>
   </head>
 
@@ -86,6 +89,13 @@
        <li class="nav-item py-2">
          <a class="nav-link" href="/modules/resources/gibbon-data/">
            Resources
+         </a>
+       </li>
+      
+       
+       <li class="nav-item py-2">
+         <a class="nav-link" href="/modules/completion/certificates/">
+           Completion
          </a>
        </li>
       
@@ -148,12 +158,6 @@
 			</li>
 		
 			<li class="  ">
-				<a href="/modules/representing-data/data-model-quiz/">
-					Quiz: Data models
-				</a>
-			</li>
-		
-			<li class="  ">
 				<a href="/modules/representing-data/represent-your-data/">
 					Represent your data
 				</a>
@@ -166,20 +170,8 @@
 			</li>
 		
 			<li class="  ">
-				<a href="/modules/representing-data/attributes/">
-					Attributes
-				</a>
-			</li>
-		
-			<li class="  ">
 				<a href="/modules/representing-data/uncertainty/">
 					Uncertainty
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a href="/modules/representing-data/uncertainty-quiz/">
-					Uncertainty quiz
 				</a>
 			</li>
 		
@@ -190,26 +182,14 @@
 			</li>
 		
 			<li class="  ">
-				<a href="/modules/representing-data/join-attributes/">
-					Join attributes
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a href="/modules/representing-data/module2-assignment/">
-					Assignment
-				</a>
-			</li>
-		
-			<li class="  ">
 				<a href="/modules/representing-data/module2-reflect/">
 					Reflection
 				</a>
 			</li>
 		
 			<li class="  last">
-				<a href="/modules/representing-data/holding-page/">
-					Awaiting release
+				<a href="/modules/representing-data/module2-assignment/">
+					Assignment
 				</a>
 			</li>
 		
@@ -284,10 +264,7 @@ This example contains 3 points</dd>
 
 <p>Test your new knowledge with our mini quiz!  <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20"></p>
 
-<iframe src="https://verdantlearn.h5p.com/content/1291353958466496357/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
-<script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-
-<script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<div id="h5p-vector-data-types"></div>
 
 <h3 id="adjust-vector-symbology">Adjust vector symbology</h3>
 
@@ -310,6 +287,20 @@ This example contains 3 points</dd>
 <img src="/src/img/QGIS_Symbology-Polygon.png" alt="Adjust polygon symbology in QGIS"></p>
 
 <!-- Observable: Fix polygons, include table of coordinates plus hover-over of coordinates -->
+
+<script type="text/javascript">
+    const el = document.getElementById('h5p-vector-data-types');
+    const options = {
+    // 5pJsonPath:  '/h5p-folder',
+    // frameJs: '/assets/frame.bundle.js',
+    // frameCss: '/assets/styles/h5p.css',
+    h5pJsonPath:  '../../../src/h5p/VectorDataTypes',
+    frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
+    frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
+    }
+    new H5PStandalone.H5P(el, options);
+</script>
+
 
 				
 

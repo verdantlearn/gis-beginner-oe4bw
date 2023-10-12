@@ -31,6 +31,9 @@
   <link rel="shortcut icon" href="/src/img/favicon.ico">
   <script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
   
+  <!-- H5P standalone player -->
+  <script type="text/javascript" src="/src/h5p/standAlonePlayer/main.bundle.js"></script>
+
   <script src="https://cdn.usefathom.com/script.js" data-site="IIBCQDNI" data-spa="auto" defer></script>
   </head>
 
@@ -86,6 +89,13 @@
        <li class="nav-item py-2">
          <a class="nav-link" href="/modules/resources/gibbon-data/">
            Resources
+         </a>
+       </li>
+      
+       
+       <li class="nav-item py-2">
+         <a class="nav-link" href="/modules/completion/certificates/">
+           Completion
          </a>
        </li>
       
@@ -178,20 +188,14 @@
 			</li>
 		
 			<li class="  ">
-				<a href="/modules/introduction/module1-assignment/">
-					Assignment
-				</a>
-			</li>
-		
-			<li class="  ">
 				<a href="/modules/introduction/module1-reflect/">
 					Reflection
 				</a>
 			</li>
 		
 			<li class="  last">
-				<a href="/modules/introduction/holding-page/">
-					Awaiting release
+				<a href="/modules/introduction/module1-assignment/">
+					Assignment
 				</a>
 			</li>
 		
@@ -219,11 +223,11 @@
   <dd>
 <abbr title="Geographic Information Systems (sometimes known as Geographic Information Science)">GIS</abbr> is the combination of <strong>software</strong> <img class="emoji" title=":cd:" alt=":cd:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bf.png" height="20" width="20"> (like QGIS and the geolocation function on your mobile phone) and <strong>hardware</strong> <img class="emoji" title=":computer:" alt=":computer:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png" height="20" width="20"> (your laptop &amp; phone) used to create, manage and analyse spatial data.  A broader definition includes the people who work with the software, so you yourself are part of a <abbr title="Geographic Information Systems (sometimes known as Geographic Information Science)">GIS</abbr>!</dd>
   <dt>Spatial data</dt>
-  <dd>Spatial data are <strong>data</strong> <img class="emoji" title=":clipboard:" alt=":clipboard:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png" height="20" width="20"> plus <strong>location</strong> <img class="emoji" title=":pushpin:" alt=":pushpin:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png" height="20" width="20"> information, allowing the data to be situated in space.  Location information can be provided in a variety of formats, from descriptive (<em>3rd bend in the river downstream from our village</em>), to highly precise map <abbr title="distances along an X and Y axis, optionally Z for height">coordinates</abbr> in a specific spatial reference systems<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>.</dd>
+  <dd>Spatial data are <strong>data</strong> <img class="emoji" title=":clipboard:" alt=":clipboard:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cb.png" height="20" width="20"> plus <strong>location</strong> <img class="emoji" title=":pushpin:" alt=":pushpin:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4cc.png" height="20" width="20"> information, allowing the data to be situated in space.  Location information can be provided in a variety of formats, from descriptive (<em>3rd bend in the river downstream from our village</em>), to highly precise map <abbr title="distances along an X and Y axis, optionally Z for height">coordinates</abbr> in a specific spatial reference systems<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</dd>
   <dt>
 <abbr title="Geographic Information Systems (sometimes known as Geographic Information Science)">GIS</abbr> <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr>
 </dt>
-  <dd>A <abbr title="Geographic Information Systems (sometimes known as Geographic Information Science)">GIS</abbr> <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> is the file created by QGIS to display your spatial data.  The <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> remembers which datasets are displayed and how they are symbolised<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup> (colours etc), and the spatial reference system you’ve chosen to work with.  The <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> also stores the maps you’ve created using your data.  QGIS <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> files use the <em>.qgz</em> file extension</dd>
+  <dd>A <abbr title="Geographic Information Systems (sometimes known as Geographic Information Science)">GIS</abbr> <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> is the file created by QGIS to display your spatial data.  The <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> remembers which datasets are displayed and how they are symbolised<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup> (colours etc), and the spatial reference system you’ve chosen to work with.  The <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> also stores the maps you’ve created using your data.  QGIS <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> files use the <em>.qgz</em> file extension</dd>
   <dd>It’s important to realise that the <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> file <em>does not store</em> the spatial data layers themselves!  Removing a <abbr title="A link to a spatial dataset from within a GIS project">layer</abbr> from your <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> does not delete the underlying spatial data.  If you move your .qgz file to a different folder, you will break the link and QGIS will ask you where the data are stored the next time you open that <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr>.  If you want to share your <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr>, you need to share the datasets as well, not just the .qgz file</dd>
   <dt>Layer</dt>
   <dd>A <abbr title="A link to a spatial dataset from within a GIS project">layer</abbr> is QGIS’ term for a spatial dataset.  More precisely, it is the <em>representation</em> of that dataset within your <abbr title="Geographic Information Systems (sometimes known as Geographic Information Science)">GIS</abbr> <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr>.  In theory, you can have multiple layers within your <abbr title="GIS file that stores links to spatial datasets and how you want them displayed">project</abbr> that all refer to the same underlying dataset, but perhaps show only a subset of the records.  This will become clearer as we move through the course</dd>

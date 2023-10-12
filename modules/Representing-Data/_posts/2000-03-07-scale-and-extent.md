@@ -24,7 +24,7 @@ Contrast a global dataset (large extent) with data from a single survey location
 
 Move the slider across the images below to see how the resolution affects the complexity and precision of spatial data
 
-<iframe src="https://verdantlearn.h5p.com/content/1291357976659369267/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<div id='h5p-spatial-res-juxtaposition'></div>
 
 ### Spatial *and* temporal 
 
@@ -76,3 +76,17 @@ To help you understand these concepts, load the following new datasets to your Q
 *[Extent]: Area or time period covered
 *[OSM]: OpenStreetMap
 *[DCW]: Digital Chart of the World
+
+
+<script type="text/javascript">
+    const el = document.getElementById('h5p-spatial-res-juxtaposition');
+    const options = {
+    // 5pJsonPath:  '/h5p-folder',
+    // frameJs: '/assets/frame.bundle.js',
+    // frameCss: '/assets/styles/h5p.css',
+    h5pJsonPath:  '../../../src/h5p/SpatialRes_Juxtaposition',
+    frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
+    frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
+    }
+    new H5PStandalone.H5P(el, options);
+</script>

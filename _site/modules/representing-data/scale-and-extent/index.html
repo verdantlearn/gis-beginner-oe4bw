@@ -31,6 +31,9 @@
   <link rel="shortcut icon" href="/src/img/favicon.ico">
   <script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
   
+  <!-- H5P standalone player -->
+  <script type="text/javascript" src="/src/h5p/standAlonePlayer/main.bundle.js"></script>
+
   <script src="https://cdn.usefathom.com/script.js" data-site="IIBCQDNI" data-spa="auto" defer></script>
   </head>
 
@@ -86,6 +89,13 @@
        <li class="nav-item py-2">
          <a class="nav-link" href="/modules/resources/gibbon-data/">
            Resources
+         </a>
+       </li>
+      
+       
+       <li class="nav-item py-2">
+         <a class="nav-link" href="/modules/completion/certificates/">
+           Completion
          </a>
        </li>
       
@@ -153,13 +163,6 @@
 		
 			<li class="  ">
 				<a
-						href="/modules/representing-data/data-model-quiz/">
-					Quiz: Data models
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
 						href="/modules/representing-data/represent-your-data/">
 					Represent your data
 				</a>
@@ -174,22 +177,8 @@
 		
 			<li class="  ">
 				<a
-						href="/modules/representing-data/attributes/">
-					Attributes
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
 						href="/modules/representing-data/uncertainty/">
 					Uncertainty
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
-						href="/modules/representing-data/uncertainty-quiz/">
-					Uncertainty quiz
 				</a>
 			</li>
 		
@@ -202,20 +191,6 @@
 		
 			<li class="  ">
 				<a
-						href="/modules/representing-data/join-attributes/">
-					Join attributes
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
-						href="/modules/representing-data/module2-assignment/">
-					Assignment
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a
 						href="/modules/representing-data/module2-reflect/">
 					Reflection
 				</a>
@@ -223,8 +198,8 @@
 		
 			<li class="  last">
 				<a
-						href="/modules/representing-data/holding-page/">
-					Awaiting release
+						href="/modules/representing-data/module2-assignment/">
+					Assignment
 				</a>
 			</li>
 		
@@ -269,8 +244,7 @@
 
 <p>Move the slider across the images below to see how the <abbr title="Level of detail">resolution</abbr> affects the complexity and precision of spatial data</p>
 
-<iframe src="https://verdantlearn.h5p.com/content/1291357976659369267/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
-<script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<div id="h5p-spatial-res-juxtaposition"></div>
 
 <h3 id="spatial-and-temporal">Spatial <em>and</em> temporal</h3>
 
@@ -356,6 +330,19 @@
 
 > How would you describe this in your own words?  Share below?  Give examples? -->
 
+<script type="text/javascript">
+    const el = document.getElementById('h5p-spatial-res-juxtaposition');
+    const options = {
+    // 5pJsonPath:  '/h5p-folder',
+    // frameJs: '/assets/frame.bundle.js',
+    // frameCss: '/assets/styles/h5p.css',
+    h5pJsonPath:  '../../../src/h5p/SpatialRes_Juxtaposition',
+    frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
+    frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
+    }
+    new H5PStandalone.H5P(el, options);
+</script>
+
 
 				
 
@@ -379,7 +366,7 @@
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="/modules/representing-data/attributes/"> Attributes
+						<a rel="next" class="next" href="/modules/representing-data/uncertainty/"> Uncertainty
 						</a>
 					</div>
 				

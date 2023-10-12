@@ -31,6 +31,9 @@
   <link rel="shortcut icon" href="/src/img/favicon.ico">
   <script type="text/javascript" src="/js/modernizr-2.6.2.min.js"></script>
   
+  <!-- H5P standalone player -->
+  <script type="text/javascript" src="/src/h5p/standAlonePlayer/main.bundle.js"></script>
+
   <script src="https://cdn.usefathom.com/script.js" data-site="IIBCQDNI" data-spa="auto" defer></script>
   </head>
 
@@ -86,6 +89,13 @@
        <li class="nav-item py-2">
          <a class="nav-link" href="/modules/resources/gibbon-data/">
            Resources
+         </a>
+       </li>
+      
+       
+       <li class="nav-item py-2">
+         <a class="nav-link" href="/modules/completion/certificates/">
+           Completion
          </a>
        </li>
       
@@ -148,12 +158,6 @@
 			</li>
 		
 			<li class="  ">
-				<a href="/modules/representing-data/data-model-quiz/">
-					Quiz: Data models
-				</a>
-			</li>
-		
-			<li class="  ">
 				<a href="/modules/representing-data/represent-your-data/">
 					Represent your data
 				</a>
@@ -166,20 +170,8 @@
 			</li>
 		
 			<li class="  ">
-				<a href="/modules/representing-data/attributes/">
-					Attributes
-				</a>
-			</li>
-		
-			<li class="  ">
 				<a href="/modules/representing-data/uncertainty/">
 					Uncertainty
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a href="/modules/representing-data/uncertainty-quiz/">
-					Uncertainty quiz
 				</a>
 			</li>
 		
@@ -190,26 +182,14 @@
 			</li>
 		
 			<li class="  ">
-				<a href="/modules/representing-data/join-attributes/">
-					Join attributes
-				</a>
-			</li>
-		
-			<li class="  ">
-				<a href="/modules/representing-data/module2-assignment/">
-					Assignment
-				</a>
-			</li>
-		
-			<li class="  ">
 				<a href="/modules/representing-data/module2-reflect/">
 					Reflection
 				</a>
 			</li>
 		
 			<li class="  last">
-				<a href="/modules/representing-data/holding-page/">
-					Awaiting release
+				<a href="/modules/representing-data/module2-assignment/">
+					Assignment
 				</a>
 			</li>
 		
@@ -263,7 +243,7 @@
 <strong>Thematic</strong> - <em>categories</em> such as vegetation class, presence/absence of a species, represented by a numerical code</li>
 </ul>
 
-<p>Our LandCover dataset is an example of a thematic raster - each <abbr title="Single cell in a raster grid">pixel</abbr> contains a code indicating the landcover class at that location.  These are the classes that occur in and around Che Tao Nature Reserve:<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup></p>
+<p>Our LandCover dataset is an example of a thematic raster - each <abbr title="Single cell in a raster grid">pixel</abbr> contains a code indicating the landcover class at that location.  These are the classes that occur in and around Che Tao Nature Reserve:<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup></p>
 
 <table>
   <thead>
@@ -330,10 +310,20 @@
 
 <p>Here’s another quick quiz!  <img class="emoji" title=":heavy_check_mark:" alt=":heavy_check_mark:" src="https://github.githubassets.com/images/icons/emoji/unicode/2714.png" height="20" width="20"></p>
 
-<iframe src="https://verdantlearn.h5p.com/content/1291354595816641297/embed" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
-<script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<div id="h5p-raster-data-types"></div>
 
-<script src="https://verdantlearn.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
+<script type="text/javascript">
+    const el = document.getElementById('h5p-raster-data-types');
+    const options = {
+    // 5pJsonPath:  '/h5p-folder',
+    // frameJs: '/assets/frame.bundle.js',
+    // frameCss: '/assets/styles/h5p.css',
+    h5pJsonPath:  '../../../src/h5p/RasterDataTypes',
+    frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
+    frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
+    }
+    new H5PStandalone.H5P(el, options);
+</script>
 
 <div class="footnotes" role="doc-endnotes">
   <ol>
@@ -365,7 +355,7 @@
 						<div class="title">
 							Next submodule:
 						</div>
-						<a rel="next" class="next" href="/modules/representing-data/data-model-quiz/"> Quiz: Data models
+						<a rel="next" class="next" href="/modules/representing-data/represent-your-data/"> Represent your data
 						</a>
 					</div>
 				
