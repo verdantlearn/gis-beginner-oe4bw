@@ -79,14 +79,14 @@ To help you understand these concepts, load the following new datasets to your Q
 
 
 <script type="text/javascript">
-    const el = document.getElementById('h5p-spatial-res-juxtaposition');
-    const options = {
-    // 5pJsonPath:  '/h5p-folder',
-    // frameJs: '/assets/frame.bundle.js',
-    // frameCss: '/assets/styles/h5p.css',
-    h5pJsonPath:  '../../../src/h5p/SpatialRes_Juxtaposition',
-    frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
-    frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
-    }
-    new H5PStandalone.H5P(el, options);
+  const el = document.getElementById('h5p-spatial-res-juxtaposition');
+  const options = {
+  // 5pJsonPath:  '/h5p-folder',
+  // frameJs: '/assets/frame.bundle.js',
+  // frameCss: '/assets/styles/h5p.css',
+  h5pJsonPath:  '../../../src/h5p/SpatialRes_Juxtaposition',
+  frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
+  frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
+  }
+  new H5PStandalone.H5P(el, options);
 </script>

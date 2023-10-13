@@ -76,15 +76,15 @@ Let's work with a vector layer in QGIS, and adjust the way the gibbon distributi
 
 
 <script type="text/javascript">
-    const el = document.getElementById('h5p-vector-data-types');
-    const options = {
-    // 5pJsonPath:  '/h5p-folder',
-    // frameJs: '/assets/frame.bundle.js',
-    // frameCss: '/assets/styles/h5p.css',
-    h5pJsonPath:  '../../../src/h5p/VectorDataTypes',
-    frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
-    frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
-    }
-    new H5PStandalone.H5P(el, options);
+  const el = document.getElementById('h5p-vector-data-types');
+  const options = {
+  // 5pJsonPath:  '/h5p-folder',
+  // frameJs: '/assets/frame.bundle.js',
+  // frameCss: '/assets/styles/h5p.css',
+  h5pJsonPath:  '../../../src/h5p/VectorDataTypes',
+  frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
+  frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
+  }
+  new H5PStandalone.H5P(el, options);
 </script>
 

@@ -57,14 +57,14 @@ Here's another quick quiz!  :heavy_check_mark:
 
 
 <script type="text/javascript">
-    const el = document.getElementById('h5p-raster-data-types');
-    const options = {
-    // 5pJsonPath:  '/h5p-folder',
-    // frameJs: '/assets/frame.bundle.js',
-    // frameCss: '/assets/styles/h5p.css',
-    h5pJsonPath:  '../../../src/h5p/RasterDataTypes',
-    frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
-    frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
-    }
-    new H5PStandalone.H5P(el, options);
+  const el = document.getElementById('h5p-raster-data-types');
+  const options = {
+  // 5pJsonPath:  '/h5p-folder',
+  // frameJs: '/assets/frame.bundle.js',
+  // frameCss: '/assets/styles/h5p.css',
+  h5pJsonPath:  '../../../src/h5p/RasterDataTypes',
+  frameJs: '../../../src/h5p/standAlonePlayer/frame.bundle.js',
+  frameCss: '../../../src/h5p/standAlonePlayer/styles/h5p.css',
+  }
+  new H5PStandalone.H5P(el, options);
 </script>
